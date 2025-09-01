@@ -1,0 +1,4357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CHAT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.talkbank.org/ns/talkbank"
+      xsi:schemaLocation="http://www.talkbank.org/ns/talkbank https://talkbank.org/software/talkbank.xsd"
+      Media="01_convo_KM" Mediatypes="video"
+      PID="11312/a-00088524-0"
+      Window="422_2434_825_938_-1_-1_382_0_382_0"
+      Version="3.0.1"
+      Lang="eng"
+      Options="bullets"
+      Corpus="Togher"
+      >
+  <Participants>
+    <participant
+      id="PRT"
+      role="Partner"
+      language="eng"
+
+    />
+    <participant
+      id="PAR"
+      role="Participant"
+      language="eng"
+      sex="male"
+      group="06"
+
+    />
+    <participant
+      id="INV"
+      role="Investigator"
+      language="eng"
+
+    />
+  </Participants>
+  <comment type="Generic">Batchalign 0.7.12, ASR Engine rev</comment>
+  <u who="PRT" uID="u0">
+    <w>the</w>
+    <w>trailer</w>
+    <t type="q"></t>
+    <media
+      start="1.705"
+      end="2.230"
+      unit="s"
+    />
+  </u>
+  <u who="PAR" uID="u1">
+    <w>I</w>
+    <w>dunno</w>
+    <t type="p"></t>
+    <media
+      start="2.230"
+      end="2.625"
+      unit="s"
+    />
+  </u>
+  <comment type="Generic">did not code the above because some info is missing</comment>
+  <comment type="Generic">Broad topic: going camping with the trailer</comment>
+  <comment type="Generic">Subtopic: issues that have happened with the trailer, welding (first topic)</comment>
+  <u who="PRT" uID="u2">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>what</w>
+    <w>happens</w>
+    <w>when</w>
+    <w>we</w>
+    <w>have</w>
+    <w>to</w>
+    <w>go</w>
+    <w>down</w>
+    <w>to</w>
+    <w>Auburn</w>
+    <t type="q"></t>
+    <media
+      start="6.911"
+      end="8.560"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u3">
+    <w>what</w>
+    <w>did</w>
+    <w>you</w>
+    <w>wanna</w>
+    <w>look</w>
+    <w>at</w>
+    <w>on</w>
+    <w>the</w>
+    <w>trailer</w>
+    <w>that</w>
+    <w>worries</w>
+    <w>you</w>
+    <w>that</w>
+    <w>they</w>
+    <w>haven't</w>
+    <w>made</w>
+    <w>right</w>
+    <t type="q"></t>
+    <media
+      start="8.673"
+      end="12.378"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u4">
+    <w type="filler">uh</w>
+    <w>the</w>
+    <w>welding</w>
+    <w>probably</w>
+    <t type="p"></t>
+    <media
+      start="12.578"
+      end="13.719"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="PRT" uID="u5">
+    <w>the</w>
+    <w>welding</w>
+    <t type="q"></t>
+    <media
+      start="14.581"
+      end="15.069"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u6">
+    <e><happening>head:nod</happening></e>
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="15.069"
+      end="15.541"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u7">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>what</w>
+    <w>about</w>
+    <w>the</w>
+    <w>welding</w>
+    <t type="q"></t>
+    <media
+      start="15.942"
+      end="17.230"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u8">
+    <w>what's</w>
+    <w>gonna</w>
+    <w>be</w>
+    <w>the</w>
+    <w>problem</w>
+    <w>do</w>
+    <w>you</w>
+    <w>reckon</w>
+    <t type="q"></t>
+    <media
+      start="17.264"
+      end="19.207"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u9">
+    <w type="filler">uh</w>
+    <w untranscribed="unintelligible">xxx</w>
+    <w>long</w>
+    <t type="p"></t>
+    <media
+      start="20.207"
+      end="20.948"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u10">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>have</w>
+    <w>they</w>
+    <w>gotta</w>
+    <w>weld</w>
+    <w>all</w>
+    <w>the</w>
+    <w>way</w>
+    <w>under</w>
+    <w>that</w>
+    <t type="q"></t>
+    <media
+      start="23.350"
+      end="25.205"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u11">
+    <w>like</w>
+    <w>they're</w>
+    <w>not</w>
+    <w>gonna</w>
+    <w type="fragment">s</w>
+    <t type="interruption"></t>
+    <media
+      start="25.272"
+      end="26.230"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u12">
+    <linker type="lazy overlap mark"/>
+    <w>all</w>
+    <w>along</w>
+    <w>where</w>
+    <t type="q"></t>
+    <media
+      start="25.932"
+      end="26.973"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u13">
+    <w>all</w>
+    <w>around</w>
+    <w>the</w>
+    <w>wheel</w>
+    <e><happening>ges:wheel</happening><k type="retracing with correction"/></e>
+    <w type="filler">uh</w>
+    <w>the</w>
+    <w>axle</w>
+    <e><happening>ges:axle</happening></e>
+    <t type="q"></t>
+    <media
+      start="27.493"
+      end="30.035"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u14">
+    <w>and</w>
+    <w>the</w>
+    <w>joints</w>
+    <t type="p"></t>
+    <media
+      start="30.456"
+      end="30.956"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u15">
+    <w>the</w>
+    <w>joints</w>
+    <t type="p"></t>
+    <media
+      start="31.537"
+      end="31.894"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u16">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>you're</w>
+    <w>talking</w>
+    <w>about</w>
+    <w>all</w>
+    <w>around</w>
+    <w>the</w>
+    <w>bottom</w>
+    <w>of</w>
+    <w>the</w>
+    <w>wheel</w>
+    <t type="p"></t>
+    <media
+      start="31.997"
+      end="33.700"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u17">
+    <w>the</w>
+    <w type="filler">um</w>
+    <t type="interruption"></t>
+    <media
+      start="33.799"
+      end="34.705"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u18">
+    <linker type="lazy overlap mark"/>
+    <w>mhm</w>
+    <e><happening>head:nod</happening></e>
+    <w>under</w>
+    <e><happening>ges:under</happening></e>
+    <t type="interruption"></t>
+    <media
+      start="34.379"
+      end="35.039"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u19">
+    <w><shortening>be</shortening>cause</w>
+    <w>Rob</w>
+    <w>was</w>
+    <w>saying</w>
+    <w>that</w>
+    <g><w>there's</w>
+    <w type="filler">um</w>
+    <w>some</w><k type="retracing with correction"/></g>
+    <w>a_lot_of</w>
+    <w>them</w>
+    <w>only</w>
+    <w>do</w>
+    <w>spot</w>
+    <w>welds</w>
+    <t type="p"></t>
+    <media
+      start="36.041"
+      end="41.175"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u20">
+    <linker type="lazy overlap mark"/>
+    <w>mhm</w>
+    <e><happening>head:nod</happening></e>
+    <t type="p"></t>
+    <media
+      start="41.142"
+      end="41.322"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <comment type="Generic">Subtopic: other possible problems with the trailer, waterproofing (cohesion)</comment>
+  <u who="PRT" uID="u21">
+    <w>what</w>
+    <w>happens</w>
+    <w>if</w>
+    <w>when</w>
+    <w>we</w>
+    <w>get</w>
+    <w>it</w>
+    <w>we</w>
+    <w>don't</w>
+    <w>have</w>
+    <w>any</w>
+    <w type="filler">um</w>
+    <w>waterproofing</w>
+    <t type="q"></t>
+    <media
+      start="42.002"
+      end="45.563"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u22">
+    <w>can</w>
+    <w>we</w>
+    <w>get</w>
+    <w>that</w>
+    <w>stuff</w>
+    <t type="q"></t>
+    <media
+      start="46.163"
+      end="47.143"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u23">
+    <w>do</w>
+    <w>you</w>
+    <w>know</w>
+    <w>whether</w>
+    <w>we</w>
+    <w>can</w>
+    <w>get</w>
+    <w>it</w>
+    <t type="q"></t>
+    <media
+      start="47.164"
+      end="48.105"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u24">
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>from</w>
+    <w>the</w>
+    <w>carpark</w>
+    <t type="p"></t>
+    <media
+      start="49.924"
+      end="50.758"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="PRT" uID="u25">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <g><w>is</w><k type="retracing with correction"/></g>
+    <w>you</w>
+    <w>can</w>
+    <w>get</w>
+    <g><w>a</w><k type="retracing"/></g>
+    <w type="filler">um</w>
+    <w type="fragment">e</w>
+    <w>a</w>
+    <w>stick-on</w>
+    <t type="p"></t>
+    <media
+      start="51.705"
+      end="53.765"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u26">
+    <linker type="lazy overlap mark"/>
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u27">
+    <w>is</w>
+    <w>it</w>
+    <w>like</w>
+    <w>a</w>
+    <w>stick-on</w>
+    <w>seal</w>
+    <w>that</w>
+    <w>you</w>
+    <w>can</w>
+    <w>get</w>
+    <t type="q"></t>
+    <media
+      start="55.552"
+      end="57.511"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u28">
+    <linker type="lazy overlap mark"/>
+    <w>mhm</w>
+    <e><happening>head:nod</happening></e>
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+    <media
+      start="58.395"
+      end="58.790"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u29">
+    <w>have</w>
+    <w>you</w>
+    <w>seen</w>
+    <w>it</w>
+    <w>in</w>
+    <w>anywhere</w>
+    <t type="q"></t>
+    <media
+      start="58.949"
+      end="60.075"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u30">
+    <w>no</w>
+    <t type="p"></t>
+
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u31">
+    <w>okay</w>
+    <tagMarker type="vocative"></tagMarker>
+    <g><w>we</w>
+    <w>hafta</w><k type="retracing with correction"/></g>
+    <w type="fragment">se</w>
+    <w>we'll</w>
+    <w>hafta</w>
+    <w>research</w>
+    <w>and</w>
+    <w>look</w>
+    <w>at</w>
+    <w>that</w>
+    <t type="p"></t>
+    <media
+      start="61.819"
+      end="64.304"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u32">
+    <w>right</w>
+    <t type="p"></t>
+
+    <a type="speech act">$PISAME</a>
+  </u>
+  <comment type="Generic">Subtopic: things they need to buy for the trailer (cohesion)</comment>
+  <u who="PRT" uID="u33">
+    <w>what</w>
+    <w>else</w>
+    <w>are</w>
+    <w>we</w>
+    <w>gonna</w>
+    <w>hafta</w>
+    <w>get</w>
+    <t type="q"></t>
+    <media
+      start="67.086"
+      end="68.389"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u34">
+    <g><w>the</w><k type="retracing with correction"/></g>
+    <w type="fragment">bo</w>
+    <w>to</w>
+    <w>buy</w>
+    <w>for</w>
+    <w>it</w>
+    <t type="p"></t>
+    <media
+      start="69.389"
+      end="70.671"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u35">
+    <w type="filler">um</w>
+    <w untranscribed="unintelligible">xxx</w>
+    <e><happening>laughs</happening></e>
+    <t type="p"></t>
+    <media
+      start="78.096"
+      end="78.596"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="PRT" uID="u36">
+    <w>yeah</w>
+    <e><happening>laughs</happening></e>
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <g><w>what've</w><k type="retracing with correction"/></g>
+    <w>we've</w>
+    <w>gotta</w>
+    <w>get</w>
+    <w>in</w>
+    <w>and</w>
+    <t type="self interruption"></t>
+    <media
+      start="78.917"
+      end="80.450"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u37">
+    <w>we've</w>
+    <w>got</w>
+    <w>the</w>
+    <w>stove</w>
+    <w>now</w>
+    <t type="p"></t>
+    <media
+      start="80.578"
+      end="81.714"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u38">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>what</w>
+    <w>else</w>
+    <w>do</w>
+    <w>we</w>
+    <w>hafta</w>
+    <w>add</w>
+    <t type="q"></t>
+    <media
+      start="81.819"
+      end="82.981"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u39">
+    <w type="filler">uh</w>
+    <w>we</w>
+    <w>take</w>
+    <w>the</w>
+    <w>gas</w>
+    <w>bottle</w>
+    <e><happening>ges:count</happening></e>
+    <w>from</w>
+    <w>the</w>
+    <w>barbecue</w>
+    <t type="p"></t>
+    <media
+      start="85.342"
+      end="86.983"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u40">
+    <w>mhm</w>
+    <e><happening>head:nod</happening></e>
+    <t type="p"></t>
+    <media
+      start="87.285"
+      end="87.563"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PRT" uID="u41">
+    <e><happening>ges:count</happening></e>
+    <w>what</w>
+    <w>else</w>
+    <w>are</w>
+    <w>we</w>
+    <w>gonna</w>
+    <w>have</w>
+    <w>to</w>
+    <w>throw</w>
+    <w>in</w>
+    <w>the</w>
+    <w>back</w>
+    <w>of</w>
+    <w>that</w>
+    <w>trailer</w>
+    <e><happening>ges:count</happening></e>
+    <t type="q"></t>
+    <media
+      start="88.404"
+      end="90.286"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u42">
+    <linker type="lazy overlap mark"/>
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u43">
+    <w>do</w>
+    <w>we</w>
+    <w>get</w>
+    <w>those</w>
+    <w type="filler">um</w>
+    <w>beds</w>
+    <t type="q"></t>
+    <media
+      start="96.334"
+      end="98.111"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u44">
+    <w>or</w>
+    <w>are</w>
+    <w>the</w>
+    <w>girls</w>
+    <w>gonna</w>
+    <w>be</w>
+    <w>alright</w>
+    <w>in</w>
+    <w>swags</w>
+    <t type="q"></t>
+    <media
+      start="98.111"
+      end="99.877"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u45">
+    <w>I</w>
+    <w>think</w>
+    <w>they'll</w>
+    <w>be</w>
+    <w>alright</w>
+    <w>in</w>
+    <w>swags</w>
+    <t type="p"></t>
+    <media
+      start="100.058"
+      end="103.181"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u46">
+    <linker type="lazy overlap mark"/>
+    <g><w>mhm</w><k type="retracing"/></g>
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="104.824"
+      end="105.986"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PRT" uID="u47">
+    <w type="filler">um</w>
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>then</w>
+    <w>we</w>
+    <w>gotta</w>
+    <w>get</w>
+    <w>in</w>
+    <w>and</w>
+    <w>get</w>
+    <w>some</w>
+    <w>containers</w>
+    <w>to</w>
+    <w>put</w>
+    <w>all</w>
+    <w>the</w>
+    <w type="fragment">co</w>
+    <w>crockery</w>
+    <w>and</w>
+    <w>stuff</w>
+    <w>in</w>
+    <w>and</w>
+    <w>cooking</w>
+    <w>gear</w>
+    <t type="p"></t>
+    <media
+      start="106.046"
+      end="113.061"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u48">
+    <w>mhm</w>
+    <e><happening>head:nod</happening></e>
+    <t type="p"></t>
+    <media
+      start="113.569"
+      end="114.010"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PRT" uID="u49">
+    <w>I</w>
+    <w>don't</w>
+    <w>know</w>
+    <w>how</w>
+    <w>much</w>
+    <w>space</w>
+    <w>we're</w>
+    <w>gonna</w>
+    <w>have</w>
+    <w>left</w>
+    <w>over</w>
+    <w>for</w>
+    <w>food</w>
+    <w>stuffs</w>
+    <t type="p"></t>
+    <media
+      start="114.509"
+      end="118.288"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u50">
+    <w untranscribed="unintelligible">xxx</w>
+    <w>filling</w>
+    <w>the</w>
+    <w>trailer</w>
+    <w>up</w>
+    <w>first</w>
+    <t type="p"></t>
+    <media
+      start="118.771"
+      end="121.092"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u51">
+    <w>yeah</w>
+    <e><happening>head:nod</happening></e>
+    <g><w>I</w>
+    <w>don't</w>
+    <w>wanna</w>
+    <w>fill</w><k type="retracing with correction"/></g>
+    <e><happening>head:shake</happening></e>
+    <w>if</w>
+    <w>I</w>
+    <w>can</w>
+    <w>fill</w>
+    <w>the</w>
+    <w>trailer</w>
+    <e><happening>head:nod</happening></e>
+    <t type="self interruption"></t>
+    <media
+      start="122.373"
+      end="124.674"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u52">
+    <linker type="lazy overlap mark"/>
+    <w>mm</w>
+    <e><happening>head:nod</happening></e>
+    <t type="p"></t>
+    <media
+      start="124.836"
+      end="125.074"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <comment type="Generic">Subtopic: weighing the trailer with all the stuff in it (cohesion)</comment>
+  <u who="PRT" uID="u53">
+    <w>and</w>
+    <w>then</w>
+    <w>do</w>
+    <g><w>we</w><k type="retracing with correction"/></g>
+    <w>do</w>
+    <w>you</w>
+    <w>reckon</w>
+    <w>we</w>
+    <w>get</w>
+    <w>in</w>
+    <w>and</w>
+    <w>weigh</w>
+    <w>it</w>
+    <w>and</w>
+    <w>see</w>
+    <w>whether</w>
+    <w>we're</w>
+    <w>close</w>
+    <w>to</w>
+    <w>the</w>
+    <w>seven</w>
+    <w>fifty</w>
+    <t type="q"></t>
+    <media
+      start="126.476"
+      end="131.882"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u54">
+    <w type="filler">uh</w>
+    <w>I</w>
+    <w>would've</w>
+    <w>thought</w>
+    <w>we'd</w>
+    <w>take</w>
+    <w>the</w>
+    <w>family</w>
+    <w>in</w>
+    <w>the</w>
+    <w>van</w>
+    <w>after</w>
+    <w>that</w>
+    <t type="p"></t>
+    <media
+      start="131.933"
+      end="137.108"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="PRT" uID="u55">
+    <w>mhm</w>
+    <t type="p"></t>
+
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PRT" uID="u56">
+    <w>in</w>
+    <w>terms</w>
+    <w>of</w>
+    <w>whether</w>
+    <w>you</w>
+    <w>wanna</w>
+    <w>fill</w>
+    <g><w>that</w><k type="retracing with correction"/></g>
+    <w>the</w>
+    <w>water</w>
+    <w>container</w>
+    <w>with</w>
+    <w>water</w>
+    <w>is</w>
+    <w>my</w>
+    <w>thing</w>
+    <t type="p"></t>
+    <media
+      start="139.111"
+      end="143.317"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u57">
+    <w>if</w>
+    <w>we</w>
+    <w>were</w>
+    <w>gonna</w>
+    <w>weigh</w>
+    <w>it</w>
+    <w>where</w>
+    <w>would</w>
+    <w>we</w>
+    <w>get</w>
+    <w>it</w>
+    <w>weighed</w>
+    <t type="q"></t>
+    <media
+      start="144.057"
+      end="146.018"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u58">
+    <w untranscribed="unintelligible">xxx</w>
+    <w>getting</w>
+    <w>it</w>
+    <w>weighed</w>
+    <w type="filler">um</w>
+    <t type="trail off"></t>
+    <media
+      start="147.659"
+      end="151.981"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PAR" uID="u59">
+    <w>depend</w>
+    <w>the</w>
+    <w>cattle</w>
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+    <media
+      start="153.702"
+      end="154.963"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u60">
+    <e><happening>laughs</happening></e>
+    <w>how</w>
+    <w>much</w>
+    <w>does</w>
+    <w>the</w>
+    <w>cattle</w>
+    <w>scales</w>
+    <w>hold</w>
+    <t type="q"></t>
+    <media
+      start="157.771"
+      end="159.648"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u61">
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u62">
+    <w type="fragment">sh</w>
+    <w>okay</w>
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>we</w>
+    <w>gotta</w>
+    <g><w>put</w>
+    <w>a</w>
+    <w>plate</w><k type="retracing"/></g>
+    <w>put</w>
+    <w>a</w>
+    <w>plate</w>
+    <t type="p"></t>
+    <media
+      start="162.408"
+      end="165.951"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u63">
+    <w>throw</w>
+    <w>it</w>
+    <w>up</w>
+    <e><happening>ges:open_up</happening></e>
+    <t type="p"></t>
+    <media
+      start="166.272"
+      end="167.213"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PAR" uID="u64">
+    <w>put</w>
+    <w>the</w>
+    <w>fire</w>
+    <w>there</w>
+    <e><happening>ges:fire</happening></e>
+    <t type="p"></t>
+    <media
+      start="167.714"
+      end="170.100"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u65">
+    <w>okay</w>
+    <t type="p"></t>
+    <media
+      start="170.677"
+      end="171.052"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u66">
+    <w untranscribed="unintelligible">xxx</w>
+    <e><happening>ges:unknown</happening></e>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u67">
+    <w>oh</w>
+    <w>alright</w>
+    <t type="p"></t>
+
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u68">
+    <w>okay</w>
+    <tagMarker type="vocative"></tagMarker>
+    <g><w>I</w>
+    <w>thought</w>
+    <w>you'd</w><k type="retracing with correction"/></g>
+    <w type="fragment">he</w>
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="178.607"
+      end="180.208"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u69">
+    <g><w>you</w>
+    <w>could</w>
+    <w>go</w><k type="retracing with correction"/></g>
+    <e><happening>ges:point</happening></e>
+    <w>who</w>
+    <w>else</w>
+    <w>does</w>
+    <w>the</w>
+    <w>weighing</w>
+    <t type="q"></t>
+    <media
+      start="180.749"
+      end="182.657"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u70">
+    <w>is</w>
+    <w untranscribed="unintelligible">xxx</w>
+    <w>produce</w>
+    <w>do</w>
+    <w>it</w>
+    <t type="q"></t>
+    <media
+      start="182.752"
+      end="184.298"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u71">
+    <w type="filler">uh</w>
+    <w untranscribed="unintelligible">xxx</w>
+    <w>drive</w>
+    <w>it</w>
+    <w>away</w>
+    <t type="p"></t>
+    <media
+      start="186.216"
+      end="187.044"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u72">
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w><shortening>be</shortening>cause</w>
+    <w>they</w>
+    <w>do</w>
+    <w>trucks</w>
+    <tagMarker type="tag"></tagMarker>
+    <w>don't</w>
+    <w>they</w>
+    <t type="q"></t>
+    <media
+      start="187.044"
+      end="190.000"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u73">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="190.000"
+      end="190.481"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PRT" uID="u74">
+    <w>but</w>
+    <g><w>you'd</w>
+    <w>hafta</w><k type="retracing"/></g>
+    <w>you'd</w>
+    <w type="fragment">haft</w>
+    <w>hafta</w>
+    <w>unhitch</w>
+    <e><happening>ges:point</happening></e>
+    <w>the</w>
+    <w>camper</w>
+    <w>trailer</w>
+    <e><happening>ges:point</happening></e>
+    <w>or</w>
+    <w>load</w>
+    <w>it</w>
+    <e><happening>ges:point</happening></e>
+    <tagMarker type="tag"></tagMarker>
+    <w>wouldn't</w>
+    <w>you</w>
+    <t type="q"></t>
+    <media
+      start="191.843"
+      end="198.170"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u75">
+    <w>probably</w>
+    <t type="p"></t>
+
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PAR" uID="u76">
+    <w>I</w>
+    <w>don't</w>
+    <w>know</w>
+    <w>enough</w>
+    <w>about</w>
+    <w>it</w>
+    <t type="p"></t>
+    <media
+      start="199.533"
+      end="200.643"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u77">
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>or</w>
+    <w>whether</w>
+    <w>they</w>
+    <w>weigh</w>
+    <w>it</w>
+    <e><happening>ges:point</happening></e>
+    <t type="interruption"></t>
+    <media
+      start="201.134"
+      end="203.625"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u78">
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u79">
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w><shortening>be</shortening>cause</w>
+    <w>otherwise</w>
+    <w>you've</w>
+    <w>gotta</w>
+    <w>try</w>
+    <w>and</w>
+    <w>unhitch</w>
+    <w>it</w>
+    <e><happening>ges:point</happening></e>
+    <w>fully</w>
+    <w>laden</w>
+    <e><happening>ges:point</happening></e>
+    <w>which</w>
+    <w>is</w>
+    <w>gonna</w>
+    <w>be</w>
+    <w>a</w>
+    <w>bit</w>
+    <w>of</w>
+    <w>a</w>
+    <w>problem</w>
+    <t type="p"></t>
+    <media
+      start="204.781"
+      end="209.420"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u80">
+    <e><happening>head:nod</happening></e>
+    <w untranscribed="unintelligible">xxx</w>
+    <e><happening>ges:point</happening></e>
+    <e><happening>ges:unknown</happening></e>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u81">
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w><shortening>be</shortening>cause</w>
+    <w>you're</w>
+    <w>gonna</w>
+    <w>get</w>
+    <w>a</w>
+    <w>combined</w>
+    <w>mass</w>
+    <e><happening>ges:point</happening></e>
+    <w>not</w>
+    <w>a</w>
+    <w>trailer</w>
+    <w>mass</w>
+    <e><happening>ges:point</happening></e>
+    <t type="p"></t>
+    <media
+      start="214.651"
+      end="219.007"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u82">
+    <linker type="lazy overlap mark"/>
+    <w>mm</w>
+    <t type="p"></t>
+    <media
+      start="219.268"
+      end="219.452"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u83">
+    <w>the</w>
+    <w>mass</w>
+    <e><happening>ges:wave</happening><k type="retracing with correction"/></e>
+    <w>the</w>
+    <w>car</w>
+    <t type="p"></t>
+    <media
+      start="219.528"
+      end="221.734"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u84">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="222.069"
+      end="222.467"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u85">
+    <w>right</w>
+    <t type="p"></t>
+    <media
+      start="222.690"
+      end="223.190"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PRT" uID="u86">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>we're</w>
+    <w>gonna</w>
+    <w>have</w>
+    <w>to</w>
+    <w>get</w>
+    <w>in</w>
+    <w>and</w>
+    <w>make</w>
+    <w>sure</w>
+    <w>that</w>
+    <w>then</w>
+    <w>when</w>
+    <w>we</w>
+    <w>do</w>
+    <w>weigh</w>
+    <w>it</w>
+    <w>that</w>
+    <w>it's</w>
+    <w>yeah</w>
+    <w>not</w>
+    <w>gonna</w>
+    <w>be</w>
+    <w>a</w>
+    <w>problem</w>
+    <t type="p"></t>
+    <media
+      start="224.071"
+      end="231.662"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u87">
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u88">
+    <w>yeah</w>
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <g><w>there's</w><k type="retracing with correction"/></g>
+    <w>we've</w>
+    <w>got</w>
+    <w type="filler">um</w>
+    <e><happening>ges:count</happening></e>
+    <t type="interruption"></t>
+    <media
+      start="234.638"
+      end="238.300"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u89">
+    <w>what</w>
+    <w>if</w>
+    <w>Mark</w>
+    <w>has</w>
+    <w>some</w>
+    <t type="q"></t>
+    <media
+      start="238.641"
+      end="240.721"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u90">
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>Mark</w>
+    <w>might</w>
+    <w>have</w>
+    <w>some</w>
+    <t type="p"></t>
+    <media
+      start="242.684"
+      end="243.627"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u91">
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u92">
+    <linker type="lazy overlap mark"/>
+    <w><shortening>be</shortening>cause</w>
+    <g><w>we</w>
+    <w>don't</w><k type="retracing"/></g>
+    <w>we</w>
+    <w>don't</w>
+    <w>have</w>
+    <w>cattle</w>
+    <w>scars</w>
+    <e><happening>head:shake</happening></e>
+    <t type="p"></t>
+    <media
+      start="244.872"
+      end="246.847"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u93">
+    <w>not</w>
+    <w>yet</w>
+    <t type="p"></t>
+
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u94">
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>not</w>
+    <w>yet</w>
+    <e><happening>laughs</happening></e>
+    <t type="p"></t>
+    <media
+      start="248.709"
+      end="249.509"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u95">
+    <w>spent</w>
+    <w>eight</w>
+    <w>hundred</w>
+    <w>and</w>
+    <w>fifty</w>
+    <w>dollars</w>
+    <w>to</w>
+    <w>save</w>
+    <w>to</w>
+    <w>driving</w>
+    <w>to</w>
+    <w>Orange</w>
+    <w>to</w>
+    <w>get</w>
+    <w>it</w>
+    <w>weighed</w>
+    <e><happening>laughs</happening></e>
+    <t type="p"></t>
+    <media
+      start="250.210"
+      end="254.131"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u96">
+    <w>that's</w>
+    <w>a</w>
+    <w>bit</w>
+    <w>silly</w>
+    <e><happening>laughs</happening></e>
+    <t type="p"></t>
+    <media
+      start="254.373"
+      end="255.334"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <comment type="Generic">Subtopic: back to talking about things to get for the trailer (discontinuity)</comment>
+  <u who="PRT" uID="u97">
+    <w type="filler">um</w>
+    <w>what</w>
+    <w>else</w>
+    <t type="q"></t>
+    <media
+      start="255.895"
+      end="256.922"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u98">
+    <w>what</w>
+    <w>else</w>
+    <w>have</w>
+    <w>we</w>
+    <w>gotta</w>
+    <w>get</w>
+    <e><happening>ges:count</happening></e>
+    <t type="q"></t>
+    <media
+      start="257.116"
+      end="258.236"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <comment type="Generic">Subtopic: back to weighing the trailer (noncoherent)</comment>
+  <u who="PAR" uID="u99">
+    <w>weigh</w>
+    <w>a</w>
+    <w>cow</w>
+    <w>and</w>
+    <w>pay</w>
+    <w>him</w>
+    <t type="p"></t>
+    <media
+      start="258.697"
+      end="260.347"
+      unit="s"
+    />
+    <a type="speech act">$PNEW</a>
+  </u>
+  <u who="PRT" uID="u100">
+    <e><happening>ges:count</happening></e>
+    <w>get</w>
+    <w>a</w>
+    <w>what</w>
+    <e><happening>laughs</happening></e>
+    <t type="q"></t>
+    <media
+      start="262.040"
+      end="262.567"
+      unit="s"
+    />
+    <a type="speech act">$IPNEW</a>
+  </u>
+  <u who="PAR" uID="u101">
+    <w>weigh</w>
+    <w>a</w>
+    <w>cow</w>
+    <w>and</w>
+    <w>pay</w>
+    <w>him</w>
+    <w>for</w>
+    <w>it</w>
+    <t type="p"></t>
+    <media
+      start="263.142"
+      end="265.177"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u102">
+    <e><happening>sighs</happening></e>
+    <w>yeah</w>
+    <w>right</w>
+    <e><happening>laughs</happening></e>
+    <t type="p"></t>
+    <media
+      start="266.345"
+      end="267.345"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <comment type="Generic">Subtopic: back to talking about things to get for the trailer, gas stove (discontinuity)</comment>
+  <u who="PRT" uID="u103">
+    <w type="filler">um</w>
+    <e><happening>ges:count</happening></e>
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>we</w>
+    <w>got</w>
+    <w>the</w>
+    <w>swags</w>
+    <e><happening>ges:count</happening></e>
+    <t type="p"></t>
+    <media
+      start="268.458"
+      end="272.471"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u104">
+    <w>I</w>
+    <w>reckon</w>
+    <e><happening>ges:count</happening></e>
+    <w>by</w>
+    <w>the</w>
+    <w>time</w>
+    <w>we</w>
+    <w>put</w>
+    <w>the</w>
+    <w>swags</w>
+    <w>in</w>
+    <w>and</w>
+    <w>the</w>
+    <w type="filler">um</w>
+    <w>boxes</w>
+    <w>of</w>
+    <w>cooking</w>
+    <w>gear</w>
+    <e><happening>ges:count</happening></e>
+    <w>what</w>
+    <w>else</w>
+    <e><happening>ges:count</happening></e>
+    <w>is</w>
+    <w>gonna</w>
+    <w>go</w>
+    <w>in</w>
+    <w>that</w>
+    <w>trailer</w>
+    <t type="q"></t>
+    <media
+      start="273.012"
+      end="283.283"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u105">
+    <w>and</w>
+    <w>the</w>
+    <w formType="neologism">glamp<pos><c>n</c></pos></w>
+    <e><happening>ges:count</happening></e>
+    <w>and</w>
+    <w>the</w>
+    <w>stove</w>
+    <e><happening>ges:count</happening></e>
+    <t type="p"></t>
+    <media
+      start="284.364"
+      end="286.406"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u106">
+    <w>the</w>
+    <w>stove</w>
+    <w>should</w>
+    <w>fit</w>
+    <w>in</w>
+    <w>the</w>
+    <w>kitchen</w>
+    <t type="p"></t>
+    <media
+      start="286.547"
+      end="287.850"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u107">
+    <w untranscribed="unintelligible">xxx</w>
+    <w>darkness</w>
+    <w>hey</w>
+    <t type="q"></t>
+    <media
+      start="288.429"
+      end="292.353"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u108">
+    <w>yeah</w>
+    <e><happening>head:nod</happening><k type="retracing"/></e>
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="293.795"
+      end="294.143"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u109">
+    <w>I</w>
+    <w>thought</w>
+    <w untranscribed="unintelligible">xxx</w>
+    <w>trailer</w>
+    <t type="p"></t>
+    <media
+      start="295.117"
+      end="295.937"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u110">
+    <w>yep</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>it'll</w>
+    <w>be</w>
+    <w>interesting</w>
+    <w>when</w>
+    <w>we</w>
+    <w>pull</w>
+    <w>it</w>
+    <w>all</w>
+    <w>apart</w>
+    <e><happening>ges:pull_apart</happening></e>
+    <w>how</w>
+    <w>much</w>
+    <w>space</w>
+    <e><happening>ges:taking_up_space</happening></e>
+    <w>that</w>
+    <w>kitchen</w>
+    <w>takes</w>
+    <w>up</w>
+    <g><w><shortening>be</shortening>cause</w>
+    <w>it</w>
+    <w>normal</w><k type="retracing with correction"/></g>
+    <g><w>it</w><k type="retracing with correction"/></g>
+    <w>you</w>
+    <w>know</w>
+    <w>the</w>
+    <w>ones</w>
+    <w>that</w>
+    <w>come</w>
+    <w>straight</w>
+    <w>out</w>
+    <e><happening>ges:straight_out</happening></e>
+    <w>rather</w>
+    <w>than</w>
+    <w>being</w>
+    <w>on</w>
+    <w>that</w>
+    <w>swing</w>
+    <w>out</w>
+    <w>tailgate</w>
+    <e><happening>ges:swing_out</happening></e>
+    <t type="q"></t>
+    <media
+      start="298.381"
+      end="311.557"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u111">
+    <w>they</w>
+    <w>possibly</w>
+    <w>would</w>
+    <w>have</w>
+    <w>been</w>
+    <w>better</w>
+    <e><happening>ges:unknown</happening></e>
+    <t type="p"></t>
+    <media
+      start="312.238"
+      end="314.298"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u112">
+    <w>but</w>
+    <w>I</w>
+    <w>don't</w>
+    <w>know</w>
+    <w>whether</w>
+    <w>this</w>
+    <w>one</w>
+    <w>slides</w>
+    <w>in</w>
+    <e><happening>ges:slides_in</happening></e>
+    <w>and</w>
+    <w>takes</w>
+    <w>up</w>
+    <w>all</w>
+    <w>of</w>
+    <w>the</w>
+    <w>front</w>
+    <w>of</w>
+    <w>it</w>
+    <e><happening>ges:front</happening></e>
+    <e><happening>ges:unknown</happening></e>
+    <t type="interruption"></t>
+    <media
+      start="315.143"
+      end="320.698"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u113">
+    <w>maybe</w>
+    <w>we</w>
+    <w>could</w>
+    <w>look</w>
+    <w>on</w>
+    <w>the</w>
+    <t type="self interruption"></t>
+    <media
+      start="320.698"
+      end="322.294"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PAR" uID="u114">
+    <w>I</w>
+    <w>don't</w>
+    <w>know</w>
+    <t type="p"></t>
+    <media
+      start="322.875"
+      end="323.492"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PAR" uID="u115">
+    <w>on</w>
+    <w>computer</w>
+    <t type="p"></t>
+    <media
+      start="323.296"
+      end="324.016"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u116">
+    <w>we</w>
+    <w>could</w>
+    <w>look</w>
+    <w>at</w>
+    <w>it</w>
+    <w>on</w>
+    <w>the</w>
+    <w>computer</w>
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="324.558"
+      end="326.460"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u117">
+    <w>and</w>
+    <w>put</w>
+    <w>on</w>
+    <w untranscribed="unintelligible">xxx</w>
+    <e><happening>ges:length</happening></e>
+    <t type="p"></t>
+    <media
+      start="327.283"
+      end="329.385"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u118">
+    <g><w>that's</w><k type="retracing with correction"/></g>
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>I</w>
+    <w>would</w>
+    <w>think</w>
+    <w>it</w>
+    <w>would</w>
+    <w>be</w>
+    <w>about</w>
+    <e><happening>ges:length</happening></e>
+    <t type="p"></t>
+    <media
+      start="332.058"
+      end="334.173"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u119">
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <g><w>foot</w>
+    <w>and</w>
+    <w>a</w>
+    <w>half</w><k type="retracing with correction"/></g>
+    <w>foot</w>
+    <w>to</w>
+    <w>foot</w>
+    <w>and</w>
+    <w>a</w>
+    <w>half</w>
+    <w>wide</w>
+    <e><happening>ges:length</happening></e>
+    <t type="p"></t>
+    <media
+      start="334.594"
+      end="337.081"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u120">
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u121">
+    <w>no</w>
+    <t type="p"></t>
+
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u122">
+    <w>and</w>
+    <w>then</w>
+    <w>it'll</w>
+    <w>be</w>
+    <w>interesting</w>
+    <w>whether</w>
+    <w>the</w>
+    <w>gas</w>
+    <w>bottle</w>
+    <w>is</w>
+    <w>there</w>
+    <e><happening>ges:point</happening></e>
+    <w>or</w>
+    <w>whether</w>
+    <w>the</w>
+    <w>gas</w>
+    <w>bottle's</w>
+    <w>over</w>
+    <w>the</w>
+    <w>other</w>
+    <w>side</w>
+    <e><happening>ges:point</happening></e>
+    <t type="p"></t>
+    <media
+      start="340.684"
+      end="348.050"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u123">
+    <w>and</w>
+    <w>whether</w>
+    <w>we've</w>
+    <w>gotta</w>
+    <w>get</w>
+    <g><w>a</w><k type="retracing"/></g>
+    <w>a</w>
+    <w>longer</w>
+    <w>extension</w>
+    <e><happening>ges:cord</happening></e>
+    <w>to</w>
+    <w>the</w>
+    <w>gas</w>
+    <w>bottle</w>
+    <w>for</w>
+    <w>the</w>
+    <t type="interruption"></t>
+    <media
+      start="349.171"
+      end="354.165"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u124">
+    <w>throw</w>
+    <w>it</w>
+    <w>away</w>
+    <t type="p"></t>
+    <media
+      start="354.165"
+      end="355.136"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u125">
+    <w>just</w>
+    <w>take</w>
+    <w>it</w>
+    <w>out</w>
+    <t type="p"></t>
+    <media
+      start="355.357"
+      end="356.437"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u126">
+    <linker type="lazy overlap mark"/>
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u127">
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>it's</w>
+    <w>subtle</w>
+    <t type="interruption"></t>
+    <media
+      start="356.795"
+      end="358.700"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u128">
+    <linker type="lazy overlap mark"/>
+    <w untranscribed="unintelligible">xxx</w>
+    <e><happening>ges:unknown</happening></e>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u129">
+    <w>yep</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>you</w>
+    <w>could</w>
+    <w>quite</w>
+    <w>easily</w>
+    <w>take</w>
+    <w>the</w>
+    <w type="fragment">eveg</w>
+    <e><happening>ges:unknown</happening></e>
+    <t type="self interruption"></t>
+    <media
+      start="360.426"
+      end="363.553"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u130">
+    <w>well</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>when</w>
+    <w>you</w>
+    <w>get</w>
+    <w>time</w>
+    <w>to</w>
+    <w>weld</w>
+    <w>you</w>
+    <w>could</w>
+    <w>quite</w>
+    <w>easily</w>
+    <w>take</w>
+    <w>the</w>
+    <w>holder</w>
+    <e><happening>ges:circle</happening></e>
+    <w>and</w>
+    <w>weld</w>
+    <e><happening>ges:weld</happening></e>
+    <w>it</w>
+    <w>where</w>
+    <w>you</w>
+    <w>wanted</w>
+    <w>it</w>
+    <w>if</w>
+    <w>it</w>
+    <w>wasn't</w>
+    <w>in</w>
+    <w>the</w>
+    <w>right</w>
+    <w>spot</w>
+    <w>which</w>
+    <w>you</w>
+    <w>would</w>
+    <w>think</w>
+    <w>that</w>
+    <w>being</w>
+    <w>a</w>
+    <w>camper</w>
+    <w>trailer</w>
+    <w>would</w>
+    <w>be</w>
+    <w>set</w>
+    <w>up</w>
+    <w>so_that</w>
+    <w>the</w>
+    <w>gas</w>
+    <w>bottle</w>
+    <w>was</w>
+    <w>on</w>
+    <w>the</w>
+    <w>same</w>
+    <w>side</w>
+    <e><happening>ges:point</happening></e>
+    <w>as</w>
+    <w>the</w>
+    <w>kitchen</w>
+    <w>so</w>
+    <w>you</w>
+    <w>wouldn't</w>
+    <w>hafta</w>
+    <e><happening>ges:point</happening></e>
+    <w>have</w>
+    <w>a</w>
+    <w>really</w>
+    <w>long</w>
+    <w>cord</w>
+    <w>going</w>
+    <t type="p"></t>
+    <media
+      start="364.979"
+      end="382.020"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u131">
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u132">
+    <linker type="lazy overlap mark"/>
+    <g><w>yeah</w><k type="retracing"/></g>
+    <w>yeah</w>
+    <t type="p"></t>
+
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PRT" uID="u133">
+    <w>and</w>
+    <w>not</w>
+    <w>having</w>
+    <w>seen</w>
+    <w>it</w>
+    <t type="p"></t>
+    <media
+      start="386.863"
+      end="387.794"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u134">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="387.794"
+      end="388.204"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <comment type="Generic">Subtopic: debating whether to get add ons for the trailer (discontinuity)</comment>
+  <u who="PRT" uID="u135">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>the</w>
+    <w>other</w>
+    <w>thing</w>
+    <w>we</w>
+    <w>need</w>
+    <w>to</w>
+    <w>think</w>
+    <w>of</w>
+    <w>is</w>
+    <w>whether</w>
+    <w>we</w>
+    <w>get</w>
+    <w>in</w>
+    <w>and</w>
+    <w>buy</w>
+    <w>those</w>
+    <w>other</w>
+    <w>things</w>
+    <w>we</w>
+    <w>wanted</w>
+    <w>to</w>
+    <w>get</w>
+    <t type="p"></t>
+    <media
+      start="389.725"
+      end="394.169"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u136">
+    <w>the</w>
+    <w>water</w>
+    <e><happening>ges:count</happening></e>
+    <w>the</w>
+    <w>shower</w>
+    <e><happening>ges:count</happening></e>
+    <w>the</w>
+    <w>two</w>
+    <w>annexes</w>
+    <e><happening>ges:count</happening></e>
+    <w>the</w>
+    <w>two</w>
+    <w>little</w>
+    <w>tents</w>
+    <e><happening>ges:count</happening></e>
+    <t type="p"></t>
+    <media
+      start="394.889"
+      end="401.814"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u137">
+    <w>ensuites</w>
+    <w>as</w>
+    <w>they</w>
+    <w>call</w>
+    <w>them</w>
+    <e><happening>ges:count</happening></e>
+    <t type="p"></t>
+    <media
+      start="402.295"
+      end="403.824"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u138">
+    <w>and</w>
+    <w>the</w>
+    <w formType="neologism">tut<pos><c>n</c></pos></w>
+    <w>as_well</w>
+    <e><happening>ges:count</happening></e>
+    <t type="p"></t>
+    <media
+      start="404.457"
+      end="405.838"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u139">
+    <w>or</w>
+    <w>whether</w>
+    <w>we</w>
+    <w>wait</w>
+    <t type="p"></t>
+    <media
+      start="406.619"
+      end="407.362"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u140">
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u141">
+    <w>one</w>
+    <w>for</w>
+    <w>housing</w>
+    <w>the</w>
+    <w formType="neologism">tut<pos><c>n</c></pos></w>
+    <w>and</w>
+    <w>one</w>
+    <w>for</w>
+    <w>housing</w>
+    <w>the</w>
+    <w>shower</w>
+    <t type="p"></t>
+    <media
+      start="409.177"
+      end="412.603"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u142">
+    <w>but</w>
+    <w>this</w>
+    <e><happening>ges:point</happening></e>
+    <w>is</w>
+    <w>probably</w>
+    <w>not</w>
+    <w>for</w>
+    <w>this</w>
+    <w>trip</w>
+    <w>though</w>
+    <t type="p"></t>
+    <media
+      start="414.585"
+      end="416.424"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u143">
+    <g><w>no</w><k type="retracing"/></g>
+    <g><w>no</w><k type="retracing"/></g>
+    <w>no</w>
+    <t type="p"></t>
+    <media
+      start="416.465"
+      end="417.526"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="PRT" uID="u144">
+    <linker type="lazy overlap mark"/>
+    <g><w>no</w><k type="retracing"/></g>
+    <w>no</w>
+    <t type="p"></t>
+
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u145">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>that's</w>
+    <t type="interruption"></t>
+    <media
+      start="420.747"
+      end="421.093"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u146">
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="q"></t>
+
+  </u>
+  <u who="PRT" uID="u147">
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>that's</w>
+    <w>something</w>
+    <w>to</w>
+    <w>think</w>
+    <g><w>where</w><k type="retracing with correction"/></g>
+    <w>whether</w>
+    <g><w>we</w><k type="retracing with correction"/></g>
+    <w type="fragment">k</w>
+    <w>it's</w>
+    <w>gonna</w>
+    <w>fit</w>
+    <w>in</w>
+    <w>too</w>
+    <t type="p"></t>
+    <media
+      start="423.848"
+      end="427.464"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u148">
+    <e><happening>head:nod</happening></e>
+    <w>hm</w>
+    <t type="p"></t>
+    <media
+      start="427.464"
+      end="427.810"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PRT" uID="u149">
+    <w>how</w>
+    <w>much</w>
+    <w>space</w>
+    <t type="self interruption question"></t>
+    <media
+      start="428.570"
+      end="429.350"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u150">
+    <w><shortening>be</shortening>cause</w>
+    <w>we're</w>
+    <w>not</w>
+    <w>gonna</w>
+    <w>take</w>
+    <w>a</w>
+    <w>shower</w>
+    <e><happening>ges:count</happening></e>
+    <t type="p"></t>
+    <media
+      start="429.387"
+      end="432.092"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u151">
+    <w>and</w>
+    <w>we're</w>
+    <w>not</w>
+    <w>gonna</w>
+    <w>take</w>
+    <e><happening>ges:count</happening></e>
+    <w>the</w>
+    <w formType="neologism">tut<pos><c>n</c></pos></w>
+    <t type="p"></t>
+    <media
+      start="432.392"
+      end="433.853"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u152">
+    <w>and</w>
+    <w>we're</w>
+    <e><happening>ges:count</happening></e>
+    <w>not</w>
+    <w>gonna</w>
+    <w>take</w>
+    <w>those</w>
+    <w>other</w>
+    <w>two</w>
+    <w>tents</w>
+    <t type="p"></t>
+    <media
+      start="433.853"
+      end="435.674"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u153">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>that</w>
+    <w>should</w>
+    <w>give</w>
+    <w>us</w>
+    <w>space</w>
+    <t type="p"></t>
+    <media
+      start="436.276"
+      end="437.537"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u154">
+    <w untranscribed="unintelligible">xxx</w>
+    <w>for</w>
+    <w>Christmas</w>
+    <t type="p"></t>
+    <media
+      start="438.058"
+      end="438.918"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u155">
+    <w>mm</w>
+    <e><happening>head:nod</happening></e>
+    <t type="p"></t>
+    <media
+      start="440.801"
+      end="441.204"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PRT" uID="u156">
+    <w>birthday</w>
+    <w>or</w>
+    <w>something</w>
+    <t type="p"></t>
+    <media
+      start="442.183"
+      end="443.148"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u157">
+    <w>hm</w>
+    <t type="p"></t>
+
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PRT" uID="u158">
+    <w>we'll</w>
+    <w>see</w>
+    <t type="p"></t>
+    <media
+      start="444.166"
+      end="444.693"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <comment type="Generic">Subtopic: other things to buy for the trailer, tents (discontinuity)</comment>
+  <u who="PRT" uID="u159">
+    <w type="filler">um</w>
+    <w>what</w>
+    <w>was</w>
+    <w>the</w>
+    <w>other</w>
+    <w>thing</w>
+    <w>we</w>
+    <w>were</w>
+    <w>gonna</w>
+    <w>hafta</w>
+    <w>buy</w>
+    <t type="q"></t>
+    <media
+      start="445.107"
+      end="447.249"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u160">
+    <w><shortening>be</shortening>cause</w>
+    <w>we've</w>
+    <w>got</w>
+    <w>the</w>
+    <w>table</w>
+    <e><happening>ges:count</happening></e>
+    <t type="p"></t>
+    <media
+      start="447.295"
+      end="449.572"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u161">
+    <w>and</w>
+    <w>we've</w>
+    <w>got</w>
+    <w>the</w>
+    <w>seats</w>
+    <e><happening>ges:count</happening></e>
+    <w>now</w>
+    <t type="p"></t>
+    <media
+      start="449.753"
+      end="451.815"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u162">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>we</w>
+    <w>should</w>
+    <w>be</w>
+    <w>right</w>
+    <w>with</w>
+    <w>all</w>
+    <w>those</w>
+    <t type="p"></t>
+    <media
+      start="452.336"
+      end="453.856"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u163">
+    <w>and</w>
+    <w>we</w>
+    <w>have</w>
+    <w>tents</w>
+    <t type="q"></t>
+    <media
+      start="455.077"
+      end="455.577"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="PRT" uID="u164">
+    <w>well</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>do</w>
+    <w>we</w>
+    <w>put</w>
+    <w>the</w>
+    <w>tents</w>
+    <w>in</w>
+    <t type="q"></t>
+    <media
+      start="457.119"
+      end="459.321"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u165">
+    <w>do</w>
+    <w>we</w>
+    <w>put</w>
+    <w>a</w>
+    <w>tent</w>
+    <w>in</w>
+    <w>for</w>
+    <w>the</w>
+    <w>girls</w>
+    <w>in</w>
+    <w>case</w>
+    <w>you</w>
+    <w>snore</w>
+    <w>too</w>
+    <w>much</w>
+    <e><happening>laughs</happening></e>
+    <t type="q"></t>
+    <media
+      start="460.061"
+      end="462.902"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u166">
+    <e><happening>laughs</happening></e>
+    <w type="filler">um</w>
+    <w>I</w>
+    <w>dunno</w>
+    <t type="p"></t>
+    <media
+      start="464.463"
+      end="466.944"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u167">
+    <e><happening>laughs</happening></e>
+    <w>maybe</w>
+    <w>that's</w>
+    <w>something</w>
+    <w>we</w>
+    <w>ask</w>
+    <w>Matilda</w>
+    <t type="p"></t>
+    <media
+      start="468.706"
+      end="470.347"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u168">
+    <w>hm</w>
+    <t type="p"></t>
+    <media
+      start="470.363"
+      end="470.727"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PRT" uID="u169">
+    <w>whether</w>
+    <w>she</w>
+    <w>wants</w>
+    <w>that</w>
+    <w>or</w>
+    <w>just</w>
+    <w>a</w>
+    <w>set</w>
+    <w>of</w>
+    <w>earplugs</w>
+    <e><happening>laughs</happening></e>
+    <t type="p"></t>
+    <media
+      start="471.408"
+      end="473.428"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u170">
+    <w type="filler">um</w>
+    <w>come</w>
+    <w>like</w>
+    <w>that</w>
+    <t type="p"></t>
+    <media
+      start="473.917"
+      end="477.309"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PAR" uID="u171">
+    <w>they</w>
+    <w>like</w>
+    <w>keep</w>
+    <w>me</w>
+    <w>in</w>
+    <w>place</w>
+    <t type="p"></t>
+    <media
+      start="477.791"
+      end="479.592"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u172">
+    <linker type="quoted utterance next"/>
+    <w>enjoyed</w>
+    <w>the</w>
+    <w>holiday</w>
+    <t type="quotation next line"></t>
+    <media
+      start="481.473"
+      end="482.200"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u173">
+    <linker type="quoted utterance next"/>
+    <w>but</w>
+    <w>dad</w>
+    <w>snored</w>
+    <t type="p"></t>
+    <media
+      start="482.314"
+      end="483.202"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u174">
+    <w>yep</w>
+    <t type="p"></t>
+    <media
+      start="483.214"
+      end="483.670"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u175">
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u176">
+    <linker type="lazy overlap mark"/>
+    <g><w>it's</w><k type="retracing"/></g>
+    <g><w>it's</w><k type="retracing"/></g>
+    <w>it's</w>
+    <w>like</w>
+    <w>that</w>
+    <w>ad</w>
+    <w>on</w>
+    <w>tele<shortening>vision</shortening></w>
+    <t type="p"></t>
+    <media
+      start="484.675"
+      end="487.070"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u177">
+    <w>no</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>I</w>
+    <w>didn't</w>
+    <w>hear</w>
+    <w>you</w>
+    <w>last</w>
+    <w>night</w>
+    <e><happening>head:shake</happening></e>
+    <t type="p"></t>
+    <media
+      start="487.116"
+      end="488.421"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u178">
+    <w>and</w>
+    <w>they</w>
+    <w>didn't</w>
+    <w>either</w>
+    <e><happening>head:shake</happening></e>
+    <t type="p"></t>
+    <media
+      start="488.597"
+      end="489.283"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u179">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>the</w>
+    <w>door</w>
+    <w>wasn't</w>
+    <w>shut</w>
+    <t type="p"></t>
+    <media
+      start="489.418"
+      end="490.919"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u180">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>Mat</w>
+    <w>was</w>
+    <w>alright</w>
+    <t type="p"></t>
+    <media
+      start="490.959"
+      end="491.791"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u181">
+    <linker type="lazy overlap mark"/>
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <comment type="Generic">Subtopic: doonas for the trailer (discontinuity)</comment>
+  <u who="PRT" uID="u182">
+    <w type="filler">um</w>
+    <w>what</w>
+    <w>was</w>
+    <w>the</w>
+    <w>other</w>
+    <w>thing</w>
+    <w>I</w>
+    <w>was</w>
+    <w>just</w>
+    <w>thinking</w>
+    <w>about</w>
+    <w>we</w>
+    <w>needed</w>
+    <w>to</w>
+    <w>get</w>
+    <t type="q"></t>
+    <media
+      start="493.316"
+      end="497.419"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u183">
+    <e><happening>ges:unknown</happening></e>
+    <w>because</w>
+    <w>those</w>
+    <w>swags</w>
+    <w>have</w>
+    <w>all</w>
+    <w>got</w>
+    <w>those</w>
+    <w>big</w>
+    <w>heavy</w>
+    <w formType="neologism">doonas<pos><c>n</c></pos></w>
+    <w>in</w>
+    <w>them</w>
+    <w>which</w>
+    <w>I'll</w>
+    <w>hafta</w>
+    <t type="self interruption"></t>
+    <media
+      start="500.648"
+      end="505.351"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u184">
+    <w><shortening>be</shortening>cause</w>
+    <e><happening>head:shake</happening></e>
+    <w>they</w>
+    <w>won't</w>
+    <w>need</w>
+    <w>them</w>
+    <tagMarker type="tag"></tagMarker>
+    <w>will</w>
+    <w>they</w>
+    <t type="q"></t>
+    <media
+      start="505.426"
+      end="507.367"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u185">
+    <w>no</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>not</w>
+    <w>down</w>
+    <w>the</w>
+    <w>coast</w>
+    <t type="p"></t>
+    <media
+      start="507.374"
+      end="508.374"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="PRT" uID="u186">
+    <w>no</w>
+    <t type="p"></t>
+
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u187">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>by</w>
+    <w>the</w>
+    <w>time</w>
+    <w>they</w>
+    <w>pack</w>
+    <w>all</w>
+    <w>their</w>
+    <e><happening>ges:count</happening></e>
+    <t type="self interruption"></t>
+    <media
+      start="512.157"
+      end="513.697"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u188">
+    <w>all</w>
+    <w>the</w>
+    <w>clothes</w>
+    <e><happening>ges:count</happening></e>
+    <w>and</w>
+    <w>stuff</w>
+    <w>will</w>
+    <w>have</w>
+    <w>to</w>
+    <w>go</w>
+    <e><happening>ges:point</happening></e>
+    <w>in</w>
+    <w>the</w>
+    <w>back</w>
+    <w>of</w>
+    <w>the</w>
+    <w>Forester</w>
+    <tagMarker type="tag"></tagMarker>
+    <w>won't</w>
+    <w>it</w>
+    <t type="q"></t>
+    <media
+      start="513.818"
+      end="517.902"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u189">
+    <w>I</w>
+    <w>don't</w>
+    <w>know</w>
+    <t type="p"></t>
+    <media
+      start="517.902"
+      end="518.340"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u190">
+    <w>or</w>
+    <w>if</w>
+    <w>we've</w>
+    <w>got</w>
+    <w>space</w>
+    <e><happening>ges:point</happening></e>
+    <w>in</w>
+    <w>the</w>
+    <w>trailer</w>
+    <w>it'd</w>
+    <w>be</w>
+    <w>love</w>
+    <w>to</w>
+    <w>have</w>
+    <w>it</w>
+    <w>in</w>
+    <w>the</w>
+    <w>trailer</w>
+    <t type="p"></t>
+    <media
+      start="520.742"
+      end="524.517"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u191">
+    <w>mm</w>
+    <e><happening>head:nod</happening></e>
+    <t type="p"></t>
+
+    <a type="speech act">$BACK</a>
+  </u>
+  <comment type="Generic">Subtopic: other items for the trailer, extensions (discontinuity)</comment>
+  <u who="PRT" uID="u192">
+    <w>the</w>
+    <w>other</w>
+    <w>thing</w>
+    <w>I</w>
+    <w>was</w>
+    <w>gonna</w>
+    <w>ask</w>
+    <w>you</w>
+    <w>was</w>
+    <w>those</w>
+    <w>extension</w>
+    <w>leads</w>
+    <t type="p"></t>
+    <media
+      start="526.245"
+      end="528.442"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u193">
+    <w>are</w>
+    <w>they</w>
+    <w>waterproof</w>
+    <t type="q"></t>
+    <media
+      start="528.606"
+      end="529.386"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u194">
+    <w>mhm</w>
+    <t type="p"></t>
+
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="PAR" uID="u195">
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u196">
+    <w>are</w>
+    <w>they</w>
+    <w>fifteen</w>
+    <w>amp</w>
+    <t type="q"></t>
+    <media
+      start="533.271"
+      end="534.171"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u197">
+    <w>or</w>
+    <w>are</w>
+    <w>they</w>
+    <w>ten</w>
+    <t type="q"></t>
+    <media
+      start="534.172"
+      end="534.982"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u198">
+    <w>both</w>
+    <t type="p"></t>
+    <media
+      start="535.554"
+      end="535.987"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u199">
+    <w>you've</w>
+    <w>ground</w>
+    <w>that</w>
+    <w>peg</w>
+    <w>down</w>
+    <tagMarker type="tag"></tagMarker>
+    <w>have</w>
+    <w>you</w>
+    <t type="q"></t>
+    <media
+      start="537.135"
+      end="538.874"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u200">
+    <linker type="lazy overlap mark"/>
+    <w>oh</w>
+    <w>yeah</w>
+    <w>I've</w>
+    <w>got</w>
+    <w><shortening>th</shortening>em</w>
+    <w>both</w>
+    <t type="p"></t>
+    <media
+      start="539.238"
+      end="540.118"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u201">
+    <w>okay</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w><shortening>be</shortening>cause</w>
+    <w>that's</w>
+    <e><happening>ges:point</happening></e>
+    <w>another</w>
+    <w>thing</w>
+    <t type="p"></t>
+    <media
+      start="540.980"
+      end="542.729"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u202">
+    <linker type="lazy overlap mark"/>
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u203">
+    <w>I'm</w>
+    <w>hoping</w>
+    <w>that</w>
+    <w>we'll</w>
+    <w>only</w>
+    <w>need</w>
+    <w>one</w>
+    <w>extension</w>
+    <w>lead</w>
+    <w>from</w>
+    <w>that</w>
+    <w>en</w>
+    <w>suite</w>
+    <e><happening>ges:point</happening></e>
+    <w>to</w>
+    <e><happening>ges:point</happening></e>
+    <w>the</w>
+    <w>trailer</w>
+    <w>and</w>
+    <w>then</w>
+    <w>a</w>
+    <w>power</w>
+    <w>board</w>
+    <e><happening>ges:power_board</happening></e>
+    <w>from</w>
+    <w>there</w>
+    <t type="p"></t>
+    <media
+      start="543.623"
+      end="552.088"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u204">
+    <w>I'm</w>
+    <w>hoping</w>
+    <w>that</w>
+    <w>that's</w>
+    <w>all</w>
+    <w>we'll</w>
+    <w>need</w>
+    <w><shortening>be</shortening>cause</w>
+    <w>by</w>
+    <w>the</w>
+    <w>time</w>
+    <w>you</w>
+    <e><happening>ges:count</happening></e>
+    <w>put</w>
+    <w>in</w>
+    <w>all</w>
+    <w>those</w>
+    <w>chargers</w>
+    <t type="self interruption"></t>
+    <media
+      start="553.008"
+      end="557.071"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u205">
+    <w>wish</w>
+    <w>we</w>
+    <w>didn't</w>
+    <w>hafta</w>
+    <w>take</w>
+    <w>them</w>
+    <w>all</w>
+    <w>but</w>
+    <t type="interruption"></t>
+    <media
+      start="558.652"
+      end="560.503"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u206">
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u207">
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>it</w>
+    <w>should</w>
+    <w>be</w>
+    <w>okay</w>
+    <t type="p"></t>
+    <media
+      start="561.694"
+      end="566.396"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u208">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>that's</w>
+    <w>Kiama</w>
+    <t type="p"></t>
+    <media
+      start="568.397"
+      end="570.758"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u209">
+    <w>hm</w>
+    <t type="p"></t>
+    <media
+      start="571.033"
+      end="571.278"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <comment type="Generic">dealing with Matilda getting a horse on the camping trip (noncoherent)</comment>
+  <u who="PAR" uID="u210">
+    <w>how</w>
+    <w>are</w>
+    <w>we</w>
+    <w>gonna</w>
+    <w>go</w>
+    <w>with</w>
+    <w>Mat</w>
+    <w>and</w>
+    <w>the</w>
+    <w>horse</w>
+    <t type="q"></t>
+    <media
+      start="573.480"
+      end="575.580"
+      unit="s"
+    />
+    <a type="speech act">$PNEW</a>
+  </u>
+  <u who="PRT" uID="u211">
+    <w>I</w>
+    <w>don't</w>
+    <w>know</w>
+    <t type="p"></t>
+    <media
+      start="575.910"
+      end="576.241"
+      unit="s"
+    />
+    <a type="speech act">$IPNEW</a>
+  </u>
+  <u who="PRT" uID="u212">
+    <w>how</w>
+    <w>are</w>
+    <w>we</w>
+    <w>gonna</w>
+    <w>go</w>
+    <w>with</w>
+    <w>Mat</w>
+    <w>and</w>
+    <w>the</w>
+    <w>horse</w>
+    <t type="q"></t>
+    <media
+      start="577.679"
+      end="579.103"
+      unit="s"
+    />
+    <a type="speech act">$IPNEW</a>
+  </u>
+  <u who="PAR" uID="u213">
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u214">
+    <w>yeah</w>
+    <t type="p"></t>
+
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u215">
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PAR" uID="u216">
+    <w untranscribed="unintelligible">xxx</w>
+    <w>help</w>
+    <w>from</w>
+    <w>Lauren</w>
+    <t type="q"></t>
+
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PAR" uID="u217">
+    <w>there's</w>
+    <w>plenty</w>
+    <w>more</w>
+    <w>for</w>
+    <w>us</w>
+    <w>to</w>
+    <w>see</w>
+    <t type="p"></t>
+    <media
+      start="591.699"
+      end="595.203"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u218">
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>exactly</w>
+    <e><happening>head:nod</happening></e>
+    <w><shortening>be</shortening>cause</w>
+    <w>I</w>
+    <w>don't</w>
+    <w>want</w>
+    <w>her</w>
+    <w>to</w>
+    <w>feel</w>
+    <w>like</w>
+    <w>we're</w>
+    <w>all</w>
+    <t type="quotation next line"></t>
+    <media
+      start="595.222"
+      end="597.505"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u219">
+    <linker type="quoted utterance next"/>
+    <w>this</w>
+    <w>is</w>
+    <w>the</w>
+    <w>only</w>
+    <w>thing</w>
+    <t type="p"></t>
+    <media
+      start="598.385"
+      end="599.423"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u220">
+    <w><shortening>be</shortening>cause</w>
+    <w>this</w>
+    <w>is</w>
+    <w>what</w>
+    <w>worries</w>
+    <w>me</w>
+    <t type="p"></t>
+    <media
+      start="599.445"
+      end="600.667"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u221">
+    <w>the</w>
+    <w>fact</w>
+    <w>that</w>
+    <w>she'll</w>
+    <w>think</w>
+    <w>ugh</w>
+    <t type="interruption"></t>
+    <media
+      start="600.786"
+      end="602.779"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u222">
+    <linker type="lazy overlap mark"/>
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u223">
+    <w>yeah</w>
+    <w type="fragment">th</w>
+    <t type="interruption"></t>
+    <media
+      start="603.307"
+      end="603.807"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u224">
+    <linker type="lazy overlap mark"/>
+    <w>or</w>
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+    <media
+      start="605.148"
+      end="605.555"
+      unit="s"
+    />
+  </u>
+  <u who="PRT" uID="u225">
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="605.748"
+      end="606.248"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PRT" uID="u226">
+    <w type="fragment">be</w>
+    <w type="filler">uh</w>
+    <w>maybe</w>
+    <w>we</w>
+    <w>show</w>
+    <w>her</w>
+    <w>the</w>
+    <w>horse</w>
+    <w>deals</w>
+    <t type="p"></t>
+    <media
+      start="607.429"
+      end="609.017"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u227">
+    <w>and</w>
+    <w>we</w>
+    <w>say</w>
+    <t type="quotation next line"></t>
+    <media
+      start="609.029"
+      end="609.480"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u228">
+    <linker type="quoted utterance next"/>
+    <w>this</w>
+    <w>is</w>
+    <w>one</w>
+    <t type="p"></t>
+    <media
+      start="610.110"
+      end="610.947"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u229">
+    <linker type="quoted utterance next"/>
+    <w>the</w>
+    <w>other</w>
+    <w>one's</w>
+    <w>at</w>
+    <w>Karajong</w>
+    <tagMarker type="tag"></tagMarker>
+    <w>isn't</w>
+    <w>it</w>
+    <t type="q"></t>
+    <media
+      start="611.330"
+      end="614.023"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u230">
+    <w>that</w>
+    <w>other</w>
+    <w>one</w>
+    <w>we</w>
+    <w>wanted</w>
+    <w>to</w>
+    <w>look</w>
+    <w>at</w>
+    <t type="p"></t>
+    <media
+      start="614.023"
+      end="615.236"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u231">
+    <w>and</w>
+    <w>there</w>
+    <w>is</w>
+    <w>that</w>
+    <w>one</w>
+    <w>at</w>
+    <w>Orange</w>
+    <t type="p"></t>
+    <media
+      start="615.992"
+      end="617.213"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u232">
+    <w>but</w>
+    <w type="filler">um</w>
+    <w>yeah</w>
+    <w>I</w>
+    <w>don't</w>
+    <w>know</w>
+    <w>about</w>
+    <w>that</w>
+    <w>one</w>
+    <w>at</w>
+    <w>Orange</w>
+    <t type="p"></t>
+    <media
+      start="617.333"
+      end="619.836"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u233">
+    <g><w>but</w><k type="retracing"/></g>
+    <w>but</w>
+    <w>let</w>
+    <w>her</w>
+    <w>know</w>
+    <w>that</w>
+    <w>there</w>
+    <w>are</w>
+    <w>more</w>
+    <w>than</w>
+    <w>just</w>
+    <w>one</w>
+    <t type="p"></t>
+    <media
+      start="620.315"
+      end="623.302"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u234">
+    <w>I</w>
+    <w>think</w>
+    <w>they</w>
+    <w>learned</w>
+    <w>their</w>
+    <w>lesson</w>
+    <w>when</w>
+    <w>we</w>
+    <w>to</w>
+    <w>Golburn</w>
+    <t type="p"></t>
+    <media
+      start="624.598"
+      end="626.900"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u235">
+    <w>yeah</w>
+    <t type="q"></t>
+    <media
+      start="627.721"
+      end="628.034"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u236">
+    <w>last</w>
+    <w>time</w>
+    <w>with</w>
+    <w>that</w>
+    <w>other</w>
+    <w>silly</w>
+    <w>thing</w>
+    <w>that</w>
+    <w>we</w>
+    <w>tried</w>
+    <w>that</w>
+    <w>freaked</w>
+    <w>out</w>
+    <w>the</w>
+    <w>umbrella</w>
+    <t type="p"></t>
+    <media
+      start="628.201"
+      end="632.552"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u237">
+    <w>yeah</w>
+    <t type="q"></t>
+    <media
+      start="633.725"
+      end="634.067"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u238">
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u239">
+    <w>yeah</w>
+    <w type="fragment">i</w>
+    <w>it</w>
+    <w>was</w>
+    <w>a</w>
+    <w>good</w>
+    <w>thing</w>
+    <t type="p"></t>
+    <media
+      start="636.908"
+      end="637.953"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u240">
+    <w>it</w>
+    <w>was</w>
+    <w>a</w>
+    <w>good</w>
+    <w>thing</w>
+    <w>for</w>
+    <w>them</w>
+    <w>to</w>
+    <w>see</w>
+    <w>it</w>
+    <t type="p"></t>
+    <media
+      start="638.450"
+      end="640.503"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u241">
+    <w>the</w>
+    <w>fact</w>
+    <w>that</w>
+    <w>supposedly</w>
+    <w>kids'</w>
+    <w untranscribed="unintelligible">xxx</w>
+    <w>should</w>
+    <w>not</w>
+    <w>flip</w>
+    <w>at</w>
+    <w>an</w>
+    <w>umbrella</w>
+    <t type="p"></t>
+    <media
+      start="640.552"
+      end="644.059"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u242">
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u243">
+    <w>yeah</w>
+    <w>but</w>
+    <w>the</w>
+    <w>fact</w>
+    <w>that</w>
+    <w>it's</w>
+    <w>gonna</w>
+    <w>have</w>
+    <w>probably</w>
+    <w>Matt</w>
+    <w>will</w>
+    <w>have</w>
+    <w>my</w>
+    <w>big</w>
+    <w>flappy</w>
+    <w>Dry-as-a-bone</w>
+    <w>on</w>
+    <w>as_well</w>
+    <t type="p"></t>
+    <media
+      start="648.881"
+      end="654.447"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u244">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>yeah</w>
+    <w>that's</w>
+    <w>something</w>
+    <w>to</w>
+    <w>think</w>
+    <w>about</w>
+    <t type="p"></t>
+    <media
+      start="656.810"
+      end="659.310"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u245">
+    <w>so</w>
+    <w>I</w>
+    <w>just</w>
+    <w>hope</w>
+    <w>she</w>
+    <w>realizes</w>
+    <w>it's</w>
+    <w>not</w>
+    <w>the</w>
+    <w>only</w>
+    <w>thing</w>
+    <t type="p"></t>
+    <media
+      start="660.492"
+      end="663.089"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u246">
+    <w>and</w>
+    <w type="filler">um</w>
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="664.173"
+      end="665.214"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u247">
+    <g><w>it</w><k type="retracing with correction"/></g>
+    <w>just</w>
+    <w>to</w>
+    <w>make</w>
+    <w>sure</w>
+    <w>that</w>
+    <w>she</w>
+    <w>doesn't</w>
+    <w>feel</w>
+    <w>pressured</w>
+    <w>to</w>
+    <w>say</w>
+    <w>yes</w>
+    <w>if</w>
+    <w>she's</w>
+    <w>not</w>
+    <w>happy</w>
+    <t type="p"></t>
+    <media
+      start="667.055"
+      end="672.278"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u248">
+    <w>but</w>
+    <w>I</w>
+    <w>mean</w>
+    <w>when</w>
+    <w>she</w>
+    <w>hopped</w>
+    <w>on</w>
+    <w>Astro</w>
+    <w>remember</w>
+    <w>that</w>
+    <w>she's</w>
+    <w>just</w>
+    <w>can</w>
+    <w>it</w>
+    <w>around</w>
+    <w>in</w>
+    <w>five</w>
+    <w>seconds</w>
+    <t type="p"></t>
+    <media
+      start="673.278"
+      end="678.741"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u249">
+    <g><w>and</w>
+    <w>she</w><k type="retracing"/></g>
+    <w>and</w>
+    <w>she</w>
+    <w>was</w>
+    <w>as</w>
+    <w>happy</w>
+    <w>as</w>
+    <t type="interruption"></t>
+
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u250">
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u251">
+    <w>hm</w>
+    <w>yeah</w>
+    <t type="p"></t>
+
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u252">
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u253">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="690.300"
+      end="690.766"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u254">
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u255">
+    <w>yeah</w>
+    <w>it's</w>
+    <w>gonna</w>
+    <w>be</w>
+    <w>interesting</w>
+    <w>how</w>
+    <w>we're</w>
+    <w>gonna</w>
+    <w>organize</w>
+    <w>to</w>
+    <w>pick</w>
+    <w>it</w>
+    <w>up</w>
+    <t type="p"></t>
+    <media
+      start="691.967"
+      end="695.832"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u256">
+    <w>as</w>
+    <w>I</w>
+    <w>said</w>
+    <w>if</w>
+    <w>I</w>
+    <w>can</w>
+    <w>get</w>
+    <w>good</w>
+    <w>to</w>
+    <w>get</w>
+    <w>it</w>
+    <w>to</w>
+    <w>Tamworth</w>
+    <w>that</w>
+    <w>would</w>
+    <w>be</w>
+    <w>a</w>
+    <w>lifesaver</w>
+    <w>because</w>
+    <w>then</w>
+    <w>I</w>
+    <w>just</w>
+    <w>go</w>
+    <w>up</w>
+    <w>in</w>
+    <w>the</w>
+    <w>truck</w>
+    <w>and</w>
+    <w>get</w>
+    <w>it</w>
+    <t type="p"></t>
+    <media
+      start="696.009"
+      end="704.154"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u257">
+    <w>you</w>
+    <w>heard</w>
+    <w>from</w>
+    <w>Meg</w>
+    <t type="q"></t>
+    <media
+      start="704.745"
+      end="706.200"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PRT" uID="u258">
+    <w>Meg</w>
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="706.516"
+      end="707.000"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u259">
+    <w>she</w>
+    <w>said</w>
+    <w>it's</w>
+    <w>not</w>
+    <w>flooding</w>
+    <w>at</w>
+    <w>Tamworth</w>
+    <t type="p"></t>
+    <media
+      start="707.036"
+      end="708.596"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u260">
+    <w>she</w>
+    <w>hasn't</w>
+    <w>heard</w>
+    <w>back</w>
+    <w>from</w>
+    <w>the</w>
+    <w>Tamworth</w>
+    <w>crowd</w>
+    <t type="p"></t>
+    <media
+      start="708.677"
+      end="710.559"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u261">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>she</w>
+    <w>assumes</w>
+    <w>everything's</w>
+    <w>alright</w>
+    <t type="p"></t>
+    <media
+      start="710.639"
+      end="712.358"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u262">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>I</w>
+    <w>told</w>
+    <w>her</w>
+    <w>that</w>
+    <w>we</w>
+    <w>were</w>
+    <w>staying</w>
+    <w>at</w>
+    <w>Tamworth</w>
+    <w>tonight</w>
+    <t type="p"></t>
+    <media
+      start="713.182"
+      end="716.224"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u263">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>well</w>
+    <w>away</w>
+    <w>from</w>
+    <w>the</w>
+    <w>river</w>
+    <t type="p"></t>
+    <media
+      start="716.706"
+      end="720.270"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PRT" uID="u264">
+    <w>not</w>
+    <g><w>that</w><k type="retracing"/></g>
+    <w>that</w>
+    <w>counts</w>
+    <w>for</w>
+    <w>anything</w>
+    <w>because</w>
+    <w>that</w>
+    <w>whole</w>
+    <w>flat</w>
+    <w>just</w>
+    <w>has</w>
+    <w>flooded</w>
+    <t type="p"></t>
+    <media
+      start="722.172"
+      end="725.730"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <comment type="Generic">Subtopic: flooding in area where they are going on the trip (cohesion)</comment>
+  <u who="PRT" uID="u265">
+    <w>that</w>
+    <w>whole</w>
+    <w>Gunaganoo</w>
+    <w>Road</w>
+    <w>is</w>
+    <w>flooded</w>
+    <w>at</w>
+    <w>times</w>
+    <t type="p"></t>
+    <media
+      start="725.816"
+      end="729.621"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u266">
+    <w>I</w>
+    <w>remember</w>
+    <w type="fragment">dr</w>
+    <w>trying</w>
+    <w>to</w>
+    <w>get</w>
+    <w>up</w>
+    <w>there</w>
+    <t type="p"></t>
+    <media
+      start="730.361"
+      end="731.805"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u267">
+    <w>went</w>
+    <w>for</w>
+    <w>Christmas</w>
+    <w>one</w>
+    <w>year</w>
+    <t type="p"></t>
+    <media
+      start="731.942"
+      end="734.510"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u268">
+    <w>and</w>
+    <g><w>we</w><k type="retracing"/></g>
+    <w>we</w>
+    <w>couldn't</w>
+    <w>get</w>
+    <w>through</w>
+    <t type="p"></t>
+    <media
+      start="734.643"
+      end="736.025"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u269">
+    <w>but</w>
+    <w>we</w>
+    <w>got</w>
+    <w>stopped</w>
+    <w>at</w>
+    <w>Kunabarra</w>
+    <w>when</w>
+    <w>the</w>
+    <w>road</w>
+    <w>was</w>
+    <w>closed</w>
+    <w>at</w>
+    <w>Kuna</w>
+    <w>because</w>
+    <w>it</w>
+    <w>was</w>
+    <w>shut</w>
+    <t type="p"></t>
+    <media
+      start="736.083"
+      end="741.229"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PRT" uID="u270">
+    <w>or</w>
+    <w>they</w>
+    <w>turned</w>
+    <w>you</w>
+    <w>around</w>
+    <w>and</w>
+    <w>got</w>
+    <w>you</w>
+    <w>to</w>
+    <w>go</w>
+    <w>from</w>
+    <w>Kuna</w>
+    <w>across</w>
+    <t type="p"></t>
+    <media
+      start="742.706"
+      end="745.624"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u271">
+    <w>I</w>
+    <w>don't</w>
+    <w>remember</w>
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+    <media
+      start="745.828"
+      end="747.349"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="PRT" uID="u272">
+    <w>hm</w>
+    <w>you</w>
+    <w>don't</w>
+    <w>remember</w>
+    <w>anything</w>
+    <w>like</w>
+    <w>that</w>
+    <t type="q"></t>
+    <media
+      start="747.429"
+      end="750.005"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u273">
+    <linker type="lazy overlap mark"/>
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u274">
+    <linker type="lazy overlap mark"/>
+    <w>that</w>
+    <w>flooding</w>
+    <t type="p"></t>
+    <media
+      start="750.051"
+      end="750.711"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <comment type="Generic">follwing lines are letting the experimenter back in the room</comment>
+  <u who="PAR" uID="u275">
+    <linker type="lazy overlap mark"/>
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u276">
+    <w>yep</w>
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+
+  </u>
+  <u who="PRT" uID="u277">
+    <w>are</w>
+    <w>we</w>
+    <w>locked</w>
+    <w>in</w>
+    <t type="q"></t>
+    <media
+      start="756.000"
+      end="757.441"
+      unit="s"
+    />
+  </u>
+  <u who="PRT" uID="u278">
+    <w>is</w>
+    <w>the</w>
+    <w>door</w>
+    <w>locked</w>
+    <t type="q"></t>
+    <media
+      start="758.160"
+      end="759.141"
+      unit="s"
+    />
+  </u>
+</CHAT>

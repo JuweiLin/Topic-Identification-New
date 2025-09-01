@@ -1,0 +1,4212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CHAT xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.talkbank.org/ns/talkbank"
+      xsi:schemaLocation="http://www.talkbank.org/ns/talkbank https://talkbank.org/software/talkbank.xsd"
+      Media="n45" Mediatypes="audio"
+      PID="11312/a-00018290-1"
+      Window="153_370_668_685_-1_-1_200_0_208_0"
+      Version="3.0.1"
+      Lang="eng"
+      Corpus="Coelho"
+      >
+  <Participants>
+    <participant
+      id="PAR"
+    name="n45"
+      role="Participant"
+      language="eng"
+      age="P17Y00M"
+      sex="male"
+      group="NBI"
+      education="11;0."
+      custom-field="Skilled"
+    />
+    <participant
+      id="INV"
+      role="Investigator"
+      language="eng"
+
+    />
+  </Participants>
+  <comment type="Generic">This transcript has not yet been reviewed by a second transcriber.</comment>
+  <lazy-gem label="Conversation"/>
+  <comment type="Generic">Broad topic: summer plans</comment>
+  <comment type="Generic">Subtopic: things already done during the summer (first topic)</comment>
+  <u who="INV" uID="u0">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>what</w>
+    <w>have</w>
+    <w>you</w>
+    <w>been</w>
+    <w>up</w>
+    <w>to</w>
+    <w>this</w>
+    <w>summer</w>
+    <t type="q"></t>
+    <media
+      start="103.400"
+      end="106.000"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u1">
+    <w>not</w>
+    <w>that</w>
+    <w>much</w>
+    <w>really</w>
+    <t type="p"></t>
+    <media
+      start="106.000"
+      end="108.000"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="PAR" uID="u2">
+    <w>just</w>
+    <w>kinda</w>
+    <w>boring</w>
+    <t type="p"></t>
+    <media
+      start="108.000"
+      end="109.162"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u3">
+    <w>uhhuh</w>
+    <t type="p"></t>
+    <media
+      start="109.162"
+      end="109.638"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u4">
+    <w>skateboarding</w>
+    <w>a_lot</w>
+    <t type="p"></t>
+    <media
+      start="109.638"
+      end="110.938"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u5">
+    <w>yeah</w>
+    <t type="q"></t>
+    <media
+      start="110.938"
+      end="112.500"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <comment type="Generic">Subtopic: looking at colleges during summer (cohesion)</comment>
+  <u who="PAR" uID="u6">
+    <w>I'm</w>
+    <w>looking</w>
+    <w>at</w>
+    <w>some</w>
+    <w>colleges</w>
+    <t type="p"></t>
+    <media
+      start="112.500"
+      end="114.073"
+      unit="s"
+    />
+    <a type="speech act">$PNEW</a>
+  </u>
+  <u who="INV" uID="u7">
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="114.073"
+      end="114.642"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u8">
+    <w>where</w>
+    <w>have</w>
+    <w>you</w>
+    <w>been</w>
+    <t type="q"></t>
+    <media
+      start="114.642"
+      end="115.900"
+      unit="s"
+    />
+    <a type="speech act">$IPNEW</a>
+  </u>
+  <u who="PAR" uID="u9">
+    <w>well</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>I</w>
+    <w>haven't</w>
+    <w>really</w>
+    <w>gone</w>
+    <w>anywhere</w>
+    <w>yet</w>
+    <t type="p"></t>
+    <media
+      start="115.900"
+      end="117.500"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u10">
+    <w>uhhuh</w>
+    <t type="p"></t>
+    <media
+      start="117.500"
+      end="118.079"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u11">
+    <linker type="lazy overlap mark"/>
+    <w>but</w>
+    <pause symbolic-length="simple"></pause>
+    <w>I'm</w>
+    <w>going</w>
+    <w>to</w>
+    <w>U_Conn</w>
+    <pause symbolic-length="simple"></pause>
+    <w>with</w>
+    <w type="filler">uh</w>
+    <w>my</w>
+    <w>friend</w>
+    <w>Eric</w>
+    <w>in</w>
+    <w>there</w>
+    <pause symbolic-length="simple"></pause>
+    <w>July</w>
+    <w>twenty</w>
+    <w>sixth</w>
+    <t type="p"></t>
+    <media
+      start="117.500"
+      end="123.750"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u12">
+    <linker type="lazy overlap mark"/>
+    <w>uhhuh</w>
+    <t type="p"></t>
+    <media
+      start="121.492"
+      end="121.956"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u13">
+    <g><w>for</w><k type="retracing with correction"/></g>
+    <w type="fragment">l</w>
+    <pause symbolic-length="simple"></pause>
+    <w>just</w>
+    <w>to</w>
+    <w>look</w>
+    <w>around</w>
+    <t type="q"></t>
+    <media
+      start="123.750"
+      end="125.200"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u14">
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="125.200"
+      end="125.672"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u15">
+    <linker type="lazy overlap mark"/>
+    <w>do</w>
+    <w>you</w>
+    <w>have</w>
+    <w>an</w>
+    <w>appointment</w>
+    <w>or</w>
+    <w>anything</w>
+    <t type="q"></t>
+    <media
+      start="125.250"
+      end="126.647"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u16">
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>we</w>
+    <w>do</w>
+    <t type="p"></t>
+    <media
+      start="126.647"
+      end="127.550"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u17">
+    <w>uhhuh</w>
+    <t type="p"></t>
+    <media
+      start="127.550"
+      end="128.500"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u18">
+    <w>well</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>that's</w>
+    <w>good</w>
+    <t type="p"></t>
+    <media
+      start="128.500"
+      end="129.900"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <comment type="Generic">Broad topic: school</comment>
+  <comment type="Generic">Subtopic: current hs progress (discontinuity)</comment>
+  <u who="INV" uID="u19">
+    <w>now</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>you're</w>
+    <w>going</w>
+    <w>into</w>
+    <w>your</w>
+    <w>senior</w>
+    <w>year</w>
+    <tagMarker type="tag"></tagMarker>
+    <w>right</w>
+    <t type="q"></t>
+    <media
+      start="129.900"
+      end="132.200"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u20">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="132.250"
+      end="132.500"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u21">
+    <w>uhhuh</w>
+    <pause symbolic-length="simple"></pause>
+    <w>okay</w>
+    <t type="p"></t>
+    <media
+      start="132.500"
+      end="134.550"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <comment type="Generic">Subtopic: plans for college major (cohesion)</comment>
+  <u who="INV" uID="u22">
+    <w type="filler">um</w>
+    <w>do</w>
+    <w>you</w>
+    <w>have</w>
+    <g><w>any</w><k type="retracing"/></g>
+    <w>any</w>
+    <w>ideas</w>
+    <w>what</w>
+    <w>you</w>
+    <w>might</w>
+    <w>be</w>
+    <w>majoring</w>
+    <w>in</w>
+    <w>or</w>
+    <t type="trail off"></t>
+    <media
+      start="134.550"
+      end="139.600"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u23">
+    <w>actually</w>
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>I'd</w>
+    <w>kinda</w>
+    <w>like</w>
+    <w>to</w>
+    <w>be</w>
+    <w>a</w>
+    <w>photographer</w>
+    <t type="p"></t>
+    <media
+      start="139.600"
+      end="142.300"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u24">
+    <w>oh</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>okay</w>
+    <t type="p"></t>
+    <media
+      start="142.300"
+      end="143.900"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u25">
+    <g><w>I've</w><k type="retracing with correction"/></g>
+    <g><w>I'm</w><k type="retracing with correction"/></g>
+    <pause symbolic-length="simple"></pause>
+    <w>I</w>
+    <w>don't</w>
+    <w>know</w>
+    <g><w>if</w>
+    <w>I</w>
+    <w>should</w><k type="retracing with correction"/></g>
+    <pause symbolic-length="simple"></pause>
+    <w>like</w>
+    <w>what</w>
+    <w>kind</w>
+    <w>of</w>
+    <w>school</w>
+    <w>I</w>
+    <w>should</w>
+    <w>go</w>
+    <w>to</w>
+    <t type="p"></t>
+    <media
+      start="143.900"
+      end="147.800"
+      unit="s"
+    />
+    <a type="speech act">$POFF</a>
+  </u>
+  <u who="INV" uID="u26">
+    <w>uhhuh</w>
+    <t type="p"></t>
+    <media
+      start="147.800"
+      end="148.300"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u27">
+    <w><shortening>be</shortening>cause</w>
+    <w>I_mean</w>
+    <w>I</w>
+    <w>see</w>
+    <w>some</w>
+    <w>schools</w>
+    <w>and</w>
+    <w>they</w>
+    <w>have</w>
+    <w>like</w>
+    <pause symbolic-length="simple"></pause>
+    <w>three</w>
+    <w>hundred</w>
+    <w>kids</w>
+    <w>going</w>
+    <w>to</w>
+    <w><shortening>th</shortening>em</w>
+    <t type="p"></t>
+    <media
+      start="148.300"
+      end="152.805"
+      unit="s"
+    />
+    <a type="speech act">$POFF</a>
+  </u>
+  <u who="PAR" uID="u28">
+    <w>you_know</w>
+    <g><w>and</w><k type="retracing"/></g>
+    <pause symbolic-length="simple"></pause>
+    <w>and</w>
+    <w>they</w>
+    <w>don't</w>
+    <w>have</w>
+    <w>grades</w>
+    <t type="p"></t>
+    <media
+      start="152.805"
+      end="155.707"
+      unit="s"
+    />
+    <a type="speech act">$POFF</a>
+  </u>
+  <u who="PAR" uID="u29">
+    <w>it's</w>
+    <w>just</w>
+    <w>maybe</w>
+    <w>too</w>
+    <w>artsy</w>
+    <t type="p"></t>
+    <media
+      start="155.707"
+      end="157.300"
+      unit="s"
+    />
+    <a type="speech act">$POFF</a>
+  </u>
+  <u who="PAR" uID="u30">
+    <w>but</w>
+    <w>then</w>
+    <w>I</w>
+    <w>don't</w>
+    <w>wanna</w>
+    <w>go</w>
+    <w>to</w>
+    <pause symbolic-length="simple"></pause>
+    <w>a</w>
+    <w>school</w>
+    <w>with</w>
+    <w>fifty</w>
+    <w>thousand</w>
+    <w>kids</w>
+    <t type="p"></t>
+    <media
+      start="157.300"
+      end="160.500"
+      unit="s"
+    />
+    <a type="speech act">$POFF</a>
+  </u>
+  <u who="INV" uID="u31">
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="160.500"
+      end="160.850"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u32">
+    <w>and</w>
+    <w>it's</w>
+    <w>just</w>
+    <w>too</w>
+    <w>big</w>
+    <t type="p"></t>
+    <media
+      start="160.850"
+      end="161.686"
+      unit="s"
+    />
+    <a type="speech act">$POFF</a>
+  </u>
+  <u who="PAR" uID="u33">
+    <w>and</w>
+    <w>it's</w>
+    <w>crazy</w>
+    <t type="p"></t>
+    <media
+      start="161.686"
+      end="162.550"
+      unit="s"
+    />
+    <a type="speech act">$POFF</a>
+  </u>
+  <u who="INV" uID="u34">
+    <w>yeah</w>
+    <pause symbolic-length="simple"></pause>
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="162.550"
+      end="165.700"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <comment type="Generic">Subtopic: back to planned college major, photography (discontinuity/cohesion)</comment>
+  <u who="INV" uID="u35">
+    <w>well</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w type="filler">um</w>
+    <pause symbolic-length="simple"></pause>
+    <w>photography's</w>
+    <w>definitely</w>
+    <w>what</w>
+    <w>you</w>
+    <w>wanna</w>
+    <w>do</w>
+    <t type="q"></t>
+    <media
+      start="165.700"
+      end="171.300"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u36">
+    <w>well</w>
+    <tagMarker type="vocative"></tagMarker>
+    <pause symbolic-length="simple"></pause>
+    <w>right</w>
+    <w>now</w>
+    <g><w>it</w><k type="retracing with correction"/></g>
+    <w type="fragment">see</w>
+    <w>it</w>
+    <pause symbolic-length="simple"></pause>
+    <w>seems</w>
+    <w>like</w>
+    <w>it</w>
+    <w>is</w>
+    <w><shortening>be</shortening>cause</w>
+    <pause symbolic-length="simple"></pause>
+    <w>I_mean</w>
+    <w>my</w>
+    <w>father</w>
+    <w>he</w>
+    <w>went</w>
+    <w>in</w>
+    <t type="p"></t>
+    <media
+      start="171.300"
+      end="177.100"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u37">
+    <linker type="lazy overlap mark"/>
+    <w>or</w>
+    <w>you</w>
+    <w>don't</w>
+    <w>know</w>
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="q"></t>
+    <media
+      start="171.600"
+      end="172.800"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u38">
+    <w type="filler">uh</w>
+    <pause symbolic-length="simple"></pause>
+    <w>he</w>
+    <w>changed</w>
+    <t type="p"></t>
+    <media
+      start="177.100"
+      end="178.400"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="PAR" uID="u39">
+    <w>I</w>
+    <w>think</w>
+    <w>he</w>
+    <w>was</w>
+    <w>gonna</w>
+    <w>be</w>
+    <w>a</w>
+    <pause symbolic-length="simple"></pause>
+    <w>psychology</w>
+    <w>major</w>
+    <t type="p"></t>
+    <media
+      start="178.400"
+      end="181.601"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u40">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="181.601"
+      end="182.123"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u41">
+    <w>now</w>
+    <w>he's</w>
+    <w>like</w>
+    <w>some</w>
+    <w>computer</w>
+    <w>guy</w>
+    <t type="p"></t>
+    <media
+      start="182.123"
+      end="183.850"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u42">
+    <w>yeah</w>
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="183.850"
+      end="184.700"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u43">
+    <linker type="lazy overlap mark"/>
+    <w>so</w>
+    <t type="trail off"></t>
+    <media
+      start="184.500"
+      end="185.700"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <comment type="Generic">Subtopic: possibility of majoring in journalism (discontinuity/cohesion)</comment>
+  <u who="INV" uID="u44">
+    <w>well</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w type="filler">um</w>
+    <pause symbolic-length="simple"></pause>
+    <w>you_know</w>
+    <w>one</w>
+    <w>thing</w>
+    <w>you</w>
+    <w>could</w>
+    <w>do</w>
+    <w>is</w>
+    <w>go</w>
+    <w>to</w>
+    <w>a</w>
+    <w>school</w>
+    <w>that</w>
+    <w>has</w>
+    <w>a</w>
+    <w>program</w>
+    <w>in</w>
+    <w>journalism</w>
+    <t type="p"></t>
+    <media
+      start="185.700"
+      end="192.900"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u45">
+    <w type="filler">uh</w>
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>I</w>
+    <w>have</w>
+    <w>been</w>
+    <w>thinking</w>
+    <w>about</w>
+    <w>that</w>
+    <w>too</w>
+    <t type="p"></t>
+    <media
+      start="192.900"
+      end="195.000"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u46">
+    <linker type="lazy overlap mark"/>
+    <w>and</w>
+    <w>then</w>
+    <w type="filler">uh</w>
+    <g><w>the</w><k type="retracing"/></g>
+    <w>the</w>
+    <w>photography</w>
+    <w>could</w>
+    <w>certainly</w>
+    <w>be</w>
+    <w>tied</w>
+    <w>in</w>
+    <w>with</w>
+    <w>that</w>
+    <t type="p"></t>
+    <media
+      start="194.500"
+      end="200.000"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u47">
+    <w>or</w>
+    <g><w>you</w>
+    <w>might</w><k type="retracing"/></g>
+    <w type="fragment">g</w>
+    <w>you</w>
+    <w>might</w>
+    <w>get</w>
+    <w>a</w>
+    <w>taste</w>
+    <w>of</w>
+    <w>some</w>
+    <w>other</w>
+    <w>aspect</w>
+    <w>of</w>
+    <w>journalism</w>
+    <g><w>or</w><k type="retracing"/></g>
+    <w>and</w>
+    <w>get</w>
+    <w>interested</w>
+    <w>in</w>
+    <w>that</w>
+    <t type="p"></t>
+    <media
+      start="200.000"
+      end="207.000"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u48">
+    <g><w>with</w><k type="retracing"/></g>
+    <w>with</w>
+    <w>the</w>
+    <w>way</w>
+    <w>technology's</w>
+    <w>going</w>
+    <w>it</w>
+    <w>seems</w>
+    <w>to</w>
+    <w>me</w>
+    <w>that</w>
+    <pause symbolic-length="simple"></pause>
+    <w>if</w>
+    <w>you</w>
+    <w>could</w>
+    <w>get</w>
+    <w>some</w>
+    <w>background</w>
+    <w>in</w>
+    <w>computers</w>
+    <w>that'd</w>
+    <w>be</w>
+    <w>good</w>
+    <w>too</w>
+    <pause symbolic-length="simple"></pause>
+    <w><shortening>be</shortening>cause</w>
+    <w>so</w>
+    <w>much</w>
+    <t type="interruption"></t>
+    <media
+      start="207.000"
+      end="216.300"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u49">
+    <linker type="lazy overlap mark"/>
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>actually</w>
+    <w>I</w>
+    <w>have</w>
+    <w>maybe</w>
+    <pause symbolic-length="simple"></pause>
+    <w>been</w>
+    <w>thinking</w>
+    <w>about</w>
+    <w>a</w>
+    <w>minor</w>
+    <w>in</w>
+    <w>that</w>
+    <w>or</w>
+    <t type="interruption"></t>
+    <media
+      start="215.500"
+      end="219.147"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u50">
+    <linker type="lazy overlap mark"/>
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>because</w>
+    <w>so</w>
+    <w>much</w>
+    <w>of</w>
+    <w>what's</w>
+    <w>being</w>
+    <w>done</w>
+    <w>with</w>
+    <pause symbolic-length="simple"></pause>
+    <w>film</w>
+    <w>and</w>
+    <w>photography</w>
+    <w>is</w>
+    <w>like</w>
+    <w>computer</w>
+    <w>enhanced</w>
+    <w>so</w>
+    <pause symbolic-length="simple"></pause>
+    <w>I</w>
+    <w>think</w>
+    <w>that</w>
+    <w>would</w>
+    <w>be</w>
+    <w>a</w>
+    <w>good</w>
+    <w>way</w>
+    <w>to</w>
+    <w>go</w>
+    <t type="p"></t>
+    <media
+      start="218.500"
+      end="229.000"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u51">
+    <linker type="lazy overlap mark"/>
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="225.900"
+      end="226.500"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <comment type="Generic">Broad topic: computers</comment>
+  <comment type="Generic">Subtopic: participant's history using computers (cohesion)</comment>
+  <u who="PAR" uID="u52">
+    <w>I</w>
+    <w>have</w>
+    <w>been</w>
+    <w>playing</w>
+    <w>with</w>
+    <w>computers</w>
+    <w>since</w>
+    <w>I've</w>
+    <pause symbolic-length="simple"></pause>
+    <w>been</w>
+    <w>five</w>
+    <t type="p"></t>
+    <media
+      start="229.000"
+      end="232.638"
+      unit="s"
+    />
+    <a type="speech act">$PNEW</a>
+  </u>
+  <u who="INV" uID="u53">
+    <linker type="lazy overlap mark"/>
+    <w>well</w>
+    <tagMarker type="vocative"></tagMarker>
+    <g><w>I'm</w><k type="retracing"/></g>
+    <w type="fragment">sh</w>
+    <pause symbolic-length="simple"></pause>
+    <w>I'm</w>
+    <w>sure</w>
+    <w>you've</w>
+    <w>always</w>
+    <w>had</w>
+    <w><shortening>th</shortening>em</w>
+    <w>around</w>
+    <w>the</w>
+    <w>house</w>
+    <w>huh</w>
+    <pause symbolic-length="simple"></pause>
+    <w>with</w>
+    <w>your</w>
+    <w>dad</w>
+    <t type="q"></t>
+    <media
+      start="231.500"
+      end="236.800"
+      unit="s"
+    />
+    <a type="speech act">$IPNEW</a>
+  </u>
+  <u who="PAR" uID="u54">
+    <linker type="lazy overlap mark"/>
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="234.300"
+      end="234.800"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <comment type="Generic">Subtopic: kind of computer hardware participant has (discontinuity/cohesion)</comment>
+  <u who="INV" uID="u55">
+    <w>now</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w type="fragment">a</w>
+    <w>at</w>
+    <w>home</w>
+    <w>to</w>
+    <w>you</w>
+    <w>have</w>
+    <w>mostly</w>
+    <w>like</w>
+    <w>IBM</w>
+    <w>compatible</w>
+    <w>stuff</w>
+    <t type="q"></t>
+    <media
+      start="236.800"
+      end="241.900"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u56">
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="241.900"
+      end="242.576"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u57">
+    <w>uhhuh</w>
+    <t type="p"></t>
+    <media
+      start="242.576"
+      end="243.300"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u58">
+    <w>I</w>
+    <w>don't</w>
+    <w>know</w>
+    <t type="p"></t>
+    <media
+      start="243.300"
+      end="243.850"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="PAR" uID="u59">
+    <w type="filler">uh</w>
+    <g><w>just</w>
+    <w>see</w><k type="retracing with correction"/></g>
+    <w>I've</w>
+    <w>never</w>
+    <w>really</w>
+    <w>got</w>
+    <w>into</w>
+    <w>the</w>
+    <w>Macintosh</w>
+    <t type="p"></t>
+    <media
+      start="243.850"
+      end="246.150"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u60">
+    <w>uhhuh</w>
+    <t type="p"></t>
+    <media
+      start="246.150"
+      end="247.800"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u61">
+    <g><w>just</w><k type="retracing with correction"/></g>
+    <pause symbolic-length="simple"></pause>
+    <w>IBM</w>
+    <w>is</w>
+    <w type="filler">uh</w>
+    <pause symbolic-length="simple"></pause>
+    <tagMarker type="comma"></tagMarker>
+    <w>I</w>
+    <w>don't</w>
+    <w>know</w>
+    <tagMarker type="comma"></tagMarker>
+    <w>it's</w>
+    <w>more</w>
+    <w type="filler">uh</w>
+    <pause symbolic-length="simple"></pause>
+    <w>around</w>
+    <tagMarker type="tag"></tagMarker>
+    <w>I</w>
+    <w>guess</w>
+    <t type="p"></t>
+    <media
+      start="247.800"
+      end="254.750"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u62">
+    <w>uhhuh</w>
+    <pause symbolic-length="simple"></pause>
+    <w>yeah</w>
+    <t type="q"></t>
+    <media
+      start="254.750"
+      end="255.800"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u63">
+    <w>there's</w>
+    <w>more</w>
+    <w>stuff</w>
+    <w>for</w>
+    <w>it</w>
+    <t type="p"></t>
+    <media
+      start="255.800"
+      end="256.996"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u64">
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="256.996"
+      end="258.200"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <comment type="Generic">Subtopic: kind of internet service both use (discontinuity/cohesion)</comment>
+  <u who="INV" uID="u65">
+    <w type="fragment">n</w>
+    <w>now</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w type="filler">uh</w>
+    <pause symbolic-length="simple"></pause>
+    <w>do</w>
+    <w>you</w>
+    <w>have</w>
+    <w>one</w>
+    <w>of</w>
+    <w>those</w>
+    <w>like</w>
+    <w>Online_America</w>
+    <w>or</w>
+    <w>Prodigy</w>
+    <w>or</w>
+    <w>any</w>
+    <w>of</w>
+    <w>that</w>
+    <w>stuff</w>
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="q"></t>
+    <media
+      start="258.200"
+      end="268.600"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u66">
+    <linker type="lazy overlap mark"/>
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w type="filler">um</w>
+    <w>we</w>
+    <w>get</w>
+    <w>America_Online</w>
+    <t type="p"></t>
+    <media
+      start="268.150"
+      end="270.900"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u67">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="270.900"
+      end="271.900"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u68">
+    <g><w>I'm</w><k type="retracing with correction"/></g>
+    <w>actually</w>
+    <w>I'm</w>
+    <w>not</w>
+    <w>sure</w>
+    <w>if</w>
+    <w>my</w>
+    <w>brother</w>
+    <w>pays</w>
+    <w>for</w>
+    <w>it</w>
+    <pause symbolic-length="simple"></pause>
+    <w><shortening>be</shortening>cause</w>
+    <w>he</w>
+    <w>has</w>
+    <w>been</w>
+    <w>a</w>
+    <w>hacker</w>
+    <pause symbolic-length="simple"></pause>
+    <w>a</w>
+    <w>few</w>
+    <w>times</w>
+    <t type="p"></t>
+    <media
+      start="271.900"
+      end="280.650"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u69">
+    <linker type="lazy overlap mark"/>
+    <w>mhm</w>
+    <pause symbolic-length="simple"></pause>
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="274.800"
+      end="279.200"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u70">
+    <w>is</w>
+    <w>he</w>
+    <w>kinda</w>
+    <w>hooked</w>
+    <w>onto</w>
+    <w>it</w>
+    <tagMarker type="tag"></tagMarker>
+    <w>huh</w>
+    <t type="q"></t>
+    <media
+      start="280.650"
+      end="283.200"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u71">
+    <w>it's</w>
+    <w>pretty</w>
+    <w>fun</w>
+    <w>actually</w>
+    <t type="p"></t>
+    <media
+      start="283.200"
+      end="284.600"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u72">
+    <linker type="lazy overlap mark"/>
+    <w>oh</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>yeah</w>
+    <pause symbolic-length="simple"></pause>
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="284.100"
+      end="286.400"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u73">
+    <w>actually</w>
+    <g><w>I</w><k type="retracing with correction"/></g>
+    <w>I've</w>
+    <w>not</w>
+    <w>done</w>
+    <w>much</w>
+    <w>with</w>
+    <w type="filler">uh</w>
+    <pause symbolic-length="simple"></pause>
+    <w>that</w>
+    <w>America_Online</w>
+    <t type="p"></t>
+    <media
+      start="286.400"
+      end="290.583"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u74">
+    <w>but</w>
+    <w type="filler">uh</w>
+    <w>I</w>
+    <w>did</w>
+    <w type="filler">uh</w>
+    <pause symbolic-length="simple"></pause>
+    <w type="filler">um</w>
+    <pause symbolic-length="simple"></pause>
+    <w>have</w>
+    <w>Prodigy</w>
+    <w>for</w>
+    <w>a</w>
+    <w>while</w>
+    <t type="p"></t>
+    <media
+      start="290.583"
+      end="296.800"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u75">
+    <w>and</w>
+    <w>we</w>
+    <w>got</w>
+    <w>kinda</w>
+    <w>tired</w>
+    <w>of</w>
+    <w>that</w>
+    <w>so</w>
+    <pause symbolic-length="simple"></pause>
+    <w>we're</w>
+    <w>looking</w>
+    <g><w>at</w><k type="retracing"/></g>
+    <w>at</w>
+    <w>America_Online</w>
+    <t type="p"></t>
+    <media
+      start="296.800"
+      end="304.200"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u76">
+    <w>what</w>
+    <w>was</w>
+    <w>Prodigy</w>
+    <w>like</w>
+    <t type="q"></t>
+    <media
+      start="304.200"
+      end="306.000"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u77">
+    <w type="filler">uh</w>
+    <w>I</w>
+    <w>think</w>
+    <w>very</w>
+    <w>similar</w>
+    <t type="p"></t>
+    <media
+      start="306.000"
+      end="307.380"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u78">
+    <w>you_know</w>
+    <g><w>it</w>
+    <w>has</w><k type="retracing with correction"/></g>
+    <w type="filler">uh</w>
+    <w>it's</w>
+    <w>hooked</w>
+    <w>into</w>
+    <w>Sears</w>
+    <w>and</w>
+    <w>Penney's</w>
+    <w>that</w>
+    <w>you</w>
+    <w>can</w>
+    <w>do</w>
+    <w>shopping</w>
+    <t type="p"></t>
+    <media
+      start="307.380"
+      end="312.800"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u79">
+    <linker type="lazy overlap mark"/>
+    <w>oh</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>really</w>
+    <t type="q"></t>
+    <media
+      start="312.300"
+      end="313.200"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u80">
+    <g><w>you</w>
+    <w>can</w><k type="retracing with correction"/></g>
+    <w>there's</w>
+    <w>games</w>
+    <t type="p"></t>
+    <media
+      start="313.200"
+      end="315.100"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u81">
+    <w>there's</w>
+    <w>a_lot_of</w>
+    <w>different</w>
+    <w>bulletin</w>
+    <w>boards</w>
+    <t type="p"></t>
+    <media
+      start="315.100"
+      end="318.000"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u82">
+    <w>there's</w>
+    <w type="filler">uh</w>
+    <w>weather</w>
+    <w>sports</w>
+    <w>you_know</w>
+    <w>news</w>
+    <t type="p"></t>
+    <media
+      start="318.000"
+      end="321.900"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u83">
+    <w>like</w>
+    <g><w>you</w>
+    <w>must</w>
+    <w>of</w>
+    <w>had</w>
+    <w>it</w><k type="retracing with correction"/></g>
+    <w>you</w>
+    <w>must</w>
+    <w>have</w>
+    <w>that</w>
+    <t type="p"></t>
+    <media
+      start="321.900"
+      end="324.054"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u84">
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="324.054"
+      end="324.700"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u85">
+    <w>they</w>
+    <w>have</w>
+    <w>online</w>
+    <w>magazines</w>
+    <t type="p"></t>
+    <media
+      start="325.300"
+      end="326.700"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u86">
+    <w>yep</w>
+    <t type="p"></t>
+    <media
+      start="326.700"
+      end="327.317"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u87">
+    <w>and</w>
+    <w>you</w>
+    <w>have</w>
+    <w type="filler">uh</w>
+    <pause symbolic-length="simple"></pause>
+    <w>games</w>
+    <w>that</w>
+    <w>you</w>
+    <w>can</w>
+    <w>download</w>
+    <pause symbolic-length="simple"></pause>
+    <g><w>onto</w><k type="retracing"/></g>
+    <w type="fragment">y</w>
+    <w>onto</w>
+    <w>either</w>
+    <w>a</w>
+    <w>disc</w>
+    <w>or</w>
+    <g><w>a</w><k type="retracing with correction"/></g>
+    <w>you_know</w>
+    <w>your</w>
+    <w>harddrive</w>
+    <t type="p"></t>
+    <media
+      start="327.317"
+      end="336.535"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u88">
+    <linker type="lazy overlap mark"/>
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="332.100"
+      end="332.800"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u89">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <g><w>the</w><k type="retracing"/></g>
+    <g><w>the</w><k type="retracing with correction"/></g>
+    <w>I_mean</w>
+    <w>I</w>
+    <w>think</w>
+    <w>it's</w>
+    <w>pretty</w>
+    <w>comparable</w>
+    <t type="p"></t>
+    <media
+      start="336.535"
+      end="339.700"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u90">
+    <w>but</w>
+    <w>I</w>
+    <w>would</w>
+    <w>just</w>
+    <w>like</w>
+    <w>to</w>
+    <w>see</w>
+    <g><w>what</w><k type="retracing"/></g>
+    <w>what</w>
+    <w>some</w>
+    <w>of</w>
+    <w>the</w>
+    <w>other</w>
+    <w>things</w>
+    <w>are</w>
+    <w>like</w>
+    <t type="p"></t>
+    <media
+      start="339.700"
+      end="344.200"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <comment type="Generic">Subtopic: running an internet bulletin board (cohesion)</comment>
+  <u who="PAR" uID="u91">
+    <g><w>we</w><k type="retracing"/></g>
+    <pause symbolic-length="simple"></pause>
+    <w>we</w>
+    <w>useta</w>
+    <w>run</w>
+    <w>a</w>
+    <w>little</w>
+    <w>bulletin</w>
+    <w>board</w>
+    <w>ourselves</w>
+    <t type="p"></t>
+    <media
+      start="344.200"
+      end="347.250"
+      unit="s"
+    />
+    <a type="speech act">$PNEW</a>
+  </u>
+  <u who="INV" uID="u92">
+    <w>did</w>
+    <w>you</w>
+    <w>really</w>
+    <t type="q"></t>
+    <media
+      start="347.250"
+      end="347.900"
+      unit="s"
+    />
+    <a type="speech act">$IPNEW</a>
+  </u>
+  <u who="PAR" uID="u93">
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="347.900"
+      end="348.450"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u94">
+    <w>for</w>
+    <w>what</w>
+    <t type="q"></t>
+    <media
+      start="348.450"
+      end="349.400"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u95">
+    <g><w>just</w>
+    <pause symbolic-length="simple"></pause>
+    <w>like</w>
+    <w>a</w>
+    <w>local</w><k type="retracing with correction"/></g>
+    <w type="filler">uh</w>
+    <w>it</w>
+    <w>had</w>
+    <pause symbolic-length="simple"></pause>
+    <g><w>a</w>
+    <w>little</w><k type="retracing with correction"/></g>
+    <w>you_know</w>
+    <w>a</w>
+    <w>few</w>
+    <w>games</w>
+    <pause symbolic-length="simple"></pause>
+    <w>small</w>
+    <w>files</w>
+    <w>and</w>
+    <t type="trail off"></t>
+    <media
+      start="349.400"
+      end="355.300"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u96">
+    <w>uhhuh</w>
+    <t type="p"></t>
+    <media
+      start="355.300"
+      end="357.400"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u97">
+    <w>it</w>
+    <w>was</w>
+    <w>fun</w>
+    <w>for</w>
+    <w>a</w>
+    <w>while</w>
+    <t type="p"></t>
+    <media
+      start="357.400"
+      end="358.733"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u98">
+    <w>yeah</w>
+    <pause symbolic-length="simple"></pause>
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="358.733"
+      end="361.000"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u99">
+    <w>and</w>
+    <w>people</w>
+    <w>kinda</w>
+    <w type="fragment">h</w>
+    <pause symbolic-length="simple"></pause>
+    <w>got</w>
+    <w>on</w>
+    <w>board</w>
+    <w>and</w>
+    <t type="trail off"></t>
+    <media
+      start="361.000"
+      end="364.700"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u100">
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <g><w>they</w><k type="retracing with correction"/></g>
+    <w>we</w>
+    <w>had</w>
+    <w>a</w>
+    <w>little</w>
+    <w>message</w>
+    <w>area</w>
+    <pause symbolic-length="simple"></pause>
+    <w>you_know</w>
+    <t type="trail off"></t>
+    <media
+      start="364.700"
+      end="368.489"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u101">
+    <linker type="lazy overlap mark"/>
+    <w>uhhuh</w>
+    <t type="p"></t>
+    <media
+      start="366.800"
+      end="367.363"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u102">
+    <w>now</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>did</w>
+    <w>your</w>
+    <w>father</w>
+    <w>set</w>
+    <w>that</w>
+    <w>up</w>
+    <t type="q"></t>
+    <media
+      start="368.489"
+      end="370.590"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u103">
+    <w>well</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>actually</w>
+    <w>my</w>
+    <w>brother</w>
+    <w>did</w>
+    <t type="p"></t>
+    <media
+      start="370.590"
+      end="372.800"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PAR" uID="u104">
+    <w>sometimes</w>
+    <g><w>he</w><k type="retracing with correction"/></g>
+    <pause symbolic-length="simple"></pause>
+    <w>he's</w>
+    <w>a</w>
+    <w>little</w>
+    <w>quicker</w>
+    <w>than</w>
+    <w>my</w>
+    <w>father</w>
+    <w>with</w>
+    <w>some</w>
+    <w>of</w>
+    <w>the</w>
+    <w>computer</w>
+    <w>stuff</w>
+    <pause symbolic-length="simple"></pause>
+    <w>which</w>
+    <w>is</w>
+    <w>pretty</w>
+    <w>interesting</w>
+    <t type="p"></t>
+    <media
+      start="372.800"
+      end="382.200"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <comment type="Generic">Broad topic: school</comment>
+  <comment type="Generic">Subtopic: classes during participant's senior year (discontinuity)</comment>
+  <u who="INV" uID="u105">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w type="fragment">w</w>
+    <w type="filler">uh</w>
+    <w>now</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>going</w>
+    <w>into</w>
+    <w>your</w>
+    <w>senior</w>
+    <w>year</w>
+    <w>what</w>
+    <w>do</w>
+    <w>have</w>
+    <w>left</w>
+    <w>to</w>
+    <w>take</w>
+    <w>in</w>
+    <w>terms</w>
+    <w>of</w>
+    <w>classes</w>
+    <t type="q"></t>
+    <media
+      start="382.200"
+      end="388.400"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="INV" uID="u106">
+    <w>you</w>
+    <w>must</w>
+    <w>be</w>
+    <w>pretty</w>
+    <w>much</w>
+    <w type="fragment">cl</w>
+    <w>close</w>
+    <w>to</w>
+    <w>wrapping</w>
+    <w>things</w>
+    <w>up</w>
+    <tagMarker type="tag"></tagMarker>
+    <w>aren't</w>
+    <w>you</w>
+    <t type="q"></t>
+    <media
+      start="388.400"
+      end="391.900"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u107">
+    <linker type="lazy overlap mark"/>
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <pause symbolic-length="simple"></pause>
+    <w>I'm</w>
+    <w>not</w>
+    <pause symbolic-length="simple"></pause>
+    <w>taking</w>
+    <pause symbolic-length="simple"></pause>
+    <w>too</w>
+    <w>hard</w>
+    <w>of</w>
+    <w>classes</w>
+    <t type="p"></t>
+    <media
+      start="391.700"
+      end="395.682"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="PAR" uID="u108">
+    <w>I</w>
+    <w>had</w>
+    <w type="filler">uh</w>
+    <pause symbolic-length="simple"></pause>
+    <w type="filler">uh</w>
+    <w><shortening>a</shortening>_lot_of</w>
+    <w>trouble</w>
+    <w>with</w>
+    <w>chemistry</w>
+    <tagMarker type="tag"></tagMarker>
+    <w>so</w>
+    <t type="p"></t>
+    <media
+      start="395.682"
+      end="399.700"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="PAR" uID="u109">
+    <w>I</w>
+    <w>don't</w>
+    <w>think</w>
+    <w>I'm</w>
+    <w>gonna</w>
+    <w>take</w>
+    <w>physics</w>
+    <t type="p"></t>
+    <media
+      start="399.700"
+      end="400.916"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="PAR" uID="u110">
+    <w>and</w>
+    <w>I</w>
+    <w>don't</w>
+    <w>think</w>
+    <w>I</w>
+    <w>really</w>
+    <w>need</w>
+    <w>it</w>
+    <t type="p"></t>
+    <media
+      start="400.916"
+      end="402.111"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u111">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="402.111"
+      end="403.200"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u112">
+    <w>but</w>
+    <pause symbolic-length="simple"></pause>
+    <w>I</w>
+    <w>was</w>
+    <w>gonna</w>
+    <w>take</w>
+    <w>chemistry</w>
+    <w>over</w>
+    <w>in</w>
+    <w>the</w>
+    <w>summer</w>
+    <t type="p"></t>
+    <media
+      start="403.200"
+      end="407.200"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="PAR" uID="u113">
+    <w>but</w>
+    <pause symbolic-length="simple"></pause>
+    <w>not</w>
+    <w>enough</w>
+    <w>people</w>
+    <w>wanted</w>
+    <w>to</w>
+    <pause symbolic-length="simple"></pause>
+    <w><shortening>be</shortening>cause</w>
+    <t type="trail off"></t>
+    <media
+      start="407.200"
+      end="412.908"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u114">
+    <linker type="lazy overlap mark"/>
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="410.574"
+      end="411.074"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u115">
+    <w>and</w>
+    <w>I</w>
+    <w>passed</w>
+    <w>it</w>
+    <t type="p"></t>
+    <media
+      start="412.908"
+      end="414.015"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="PAR" uID="u116">
+    <w>but</w>
+    <pause symbolic-length="simple"></pause>
+    <w>just</w>
+    <w>I'd</w>
+    <w>like</w>
+    <w>to</w>
+    <w>have</w>
+    <w>my</w>
+    <w>grade</w>
+    <w>a</w>
+    <w>little</w>
+    <w>higher</w>
+    <t type="p"></t>
+    <media
+      start="414.015"
+      end="416.800"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u117">
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="416.800"
+      end="417.800"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u118">
+    <w>well</w>
+    <tagMarker type="vocative"></tagMarker>
+    <pause symbolic-length="simple"></pause>
+    <w>see</w>
+    <w>what</w>
+    <w>happens</w>
+    <t type="p"></t>
+    <media
+      start="417.800"
+      end="422.000"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u119">
+    <w>kinda</w>
+    <w>depends</w>
+    <w>on</w>
+    <w>what</w>
+    <w>you</w>
+    <w>wanna</w>
+    <w>get</w>
+    <w>into</w>
+    <pause symbolic-length="simple"></pause>
+    <g><w>whether</w><k type="retracing with correction"/></g>
+    <w>you_know</w>
+    <g><w>how</w><k type="retracing"/></g>
+    <w type="fragment">i</w>
+    <w>how</w>
+    <w>important</w>
+    <w>that'll</w>
+    <w>be</w>
+    <t type="p"></t>
+    <media
+      start="422.000"
+      end="429.600"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u120">
+    <w>but</w>
+    <pause symbolic-length="simple"></pause>
+    <w>see</w>
+    <w>how</w>
+    <w>it</w>
+    <w>goes</w>
+    <t type="p"></t>
+    <media
+      start="429.600"
+      end="431.485"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <comment type="Generic">Subtopic: applying to colleges (disconinuity)</comment>
+  <u who="INV" uID="u121">
+    <w>well</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>what</w>
+    <w>other</w>
+    <w>schools</w>
+    <w>besides</w>
+    <w>U_Conn</w>
+    <w>have</w>
+    <w>you</w>
+    <w>considered</w>
+    <t type="q"></t>
+    <media
+      start="431.485"
+      end="435.000"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u122">
+    <w type="filler">um</w>
+    <w>NYU</w>
+    <t type="p"></t>
+    <media
+      start="435.000"
+      end="436.600"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u123">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="436.600"
+      end="437.200"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u124">
+    <linker type="lazy overlap mark"/>
+    <w>I</w>
+    <w>like</w>
+    <w>NYU</w>
+    <w>a_lot</w>
+    <t type="p"></t>
+    <media
+      start="436.700"
+      end="438.149"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u125">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="438.149"
+      end="438.600"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u126">
+    <w>I</w>
+    <w>like</w>
+    <w>New_York_City</w>
+    <t type="p"></t>
+    <media
+      start="438.600"
+      end="439.900"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u127">
+    <w>sure</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>it'd</w>
+    <w>be</w>
+    <w>a</w>
+    <w>great</w>
+    <w>school</w>
+    <t type="p"></t>
+    <media
+      start="439.900"
+      end="443.000"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u128">
+    <w type="filler">um</w>
+    <pause symbolic-length="simple"></pause>
+    <w>BU</w>
+    <w>I</w>
+    <w>guess</w>
+    <t type="p"></t>
+    <media
+      start="443.000"
+      end="446.400"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u129">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="446.400"
+      end="447.500"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u130">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <g><w>I</w>
+    <w>don't</w>
+    <w>know</w>
+    <w>how</w>
+    <w>much</w>
+    <w>of</w>
+    <w>a</w><k type="retracing with correction"/></g>
+    <pause symbolic-length="simple"></pause>
+    <w>I'm</w>
+    <w>not</w>
+    <w>sure</w>
+    <w>how</w>
+    <w>hard</w>
+    <w>that</w>
+    <w>school</w>
+    <w>is</w>
+    <w>to</w>
+    <w>get</w>
+    <w>into</w>
+    <t type="p"></t>
+    <media
+      start="447.500"
+      end="451.850"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u131">
+    <w>BU</w>
+    <t type="q"></t>
+    <media
+      start="451.850"
+      end="452.400"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u132">
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="452.400"
+      end="453.700"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u133">
+    <w>I</w>
+    <w>think</w>
+    <w>it's</w>
+    <w>pretty</w>
+    <w>competitive</w>
+    <pause symbolic-length="simple"></pause>
+    <w>but</w>
+    <pause symbolic-length="simple"></pause>
+    <w>you_know</w>
+    <t type="trail off"></t>
+    <media
+      start="453.700"
+      end="459.800"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u134">
+    <w>I</w>
+    <w>wouldn't</w>
+    <w>let</w>
+    <w>that</w>
+    <w>deter</w>
+    <w>you</w>
+    <w>from</w>
+    <w>applying</w>
+    <t type="p"></t>
+    <media
+      start="459.800"
+      end="466.000"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u135">
+    <w>my</w>
+    <w>father</w>
+    <w>thinks</w>
+    <w>I</w>
+    <w>should</w>
+    <w>apply</w>
+    <w>to</w>
+    <w>about</w>
+    <w>fifteen</w>
+    <w>schools</w>
+    <w>or</w>
+    <w>something</w>
+    <t type="p"></t>
+    <media
+      start="467.900"
+      end="471.250"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u136">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="471.250"
+      end="472.026"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u137">
+    <w>nah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>wouldn't</w>
+    <w>hurt</w>
+    <t type="p"></t>
+    <media
+      start="472.026"
+      end="473.071"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u138">
+    <w>it</w>
+    <w>wouldn't</w>
+    <w>hurt</w>
+    <t type="p"></t>
+    <media
+      start="473.071"
+      end="474.600"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <comment type="Generic">Subtopic: geographic location for college (discontinuity/cohesion)</comment>
+  <u who="INV" uID="u139">
+    <w>but</w>
+    <w>you</w>
+    <w>wanna</w>
+    <w>stay</w>
+    <w>somewhat</w>
+    <w>local</w>
+    <pause symbolic-length="simple"></pause>
+    <w>you_know</w>
+    <w>in</w>
+    <w>the</w>
+    <w>North_East</w>
+    <t type="q"></t>
+    <media
+      start="474.600"
+      end="478.795"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u140">
+    <linker type="lazy overlap mark"/>
+    <w type="fragment">i</w>
+    <pause symbolic-length="simple"></pause>
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>I</w>
+    <w>don't</w>
+    <w>really</w>
+    <w>wanna</w>
+    <w>go</w>
+    <w>to</w>
+    <w>far</w>
+    <t type="p"></t>
+    <media
+      start="477.800"
+      end="480.350"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u141">
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="480.350"
+      end="483.500"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u142">
+    <linker type="lazy overlap mark"/>
+    <g><w>I</w><k type="retracing"/></g>
+    <w type="fragment">d</w>
+    <w type="filler">uh</w>
+    <w type="filler">uh</w>
+    <g><w>I</w>
+    <w>don't</w>
+    <w>really</w><k type="retracing with correction"/></g>
+    <w type="filler">uh</w>
+    <w>I</w>
+    <w>don't</w>
+    <w>know</w>
+    <w>if</w>
+    <w>I</w>
+    <w>wanna</w>
+    <w>go</w>
+    <w>up</w>
+    <w>to</w>
+    <pause symbolic-length="simple"></pause>
+    <w>Maine</w>
+    <w>or</w>
+    <t type="trail off"></t>
+    <media
+      start="483.800"
+      end="488.150"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u143">
+    <w>uhhuh</w>
+    <t type="p"></t>
+    <media
+      start="488.150"
+      end="488.768"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u144">
+    <g><w>just</w><k type="retracing with correction"/></g>
+    <g><w>it's</w>
+    <w>too</w><k type="retracing with correction"/></g>
+    <pause symbolic-length="simple"></pause>
+    <w>like</w>
+    <w>nothing</w>
+    <w>happens</w>
+    <w>there</w>
+    <t type="p"></t>
+    <media
+      start="488.768"
+      end="491.300"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u145">
+    <w>yep</w>
+    <t type="p"></t>
+    <media
+      start="491.300"
+      end="491.682"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u146">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="491.682"
+      end="492.400"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u147">
+    <w>I</w>
+    <w>think</w>
+    <w>it'd</w>
+    <w>be</w>
+    <w>fun</w>
+    <w>to</w>
+    <w>go</w>
+    <w>to</w>
+    <w type="filler">uh</w>
+    <w type="filler">uh</w>
+    <w>a</w>
+    <w>school</w>
+    <g><w>in</w>
+    <w>a</w><k type="retracing"/></g>
+    <w>in</w>
+    <w>a</w>
+    <w>big</w>
+    <w>city</w>
+    <t type="p"></t>
+    <media
+      start="492.400"
+      end="496.700"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <comment type="Generic">Subtopic: going to school in DC (discontinuity/cohesion)</comment>
+  <u who="INV" uID="u148">
+    <w>you_know</w>
+    <w>there's</w>
+    <w type="filler">uh</w>
+    <g><w>a_lot_of</w>
+    <w>good</w>
+    <w>school</w><k type="retracing with correction"/></g>
+    <w type="fragment">l</w>
+    <w type="fragment">l</w>
+    <w>a_lot_of</w>
+    <w>good</w>
+    <w>schools</w>
+    <w>in</w>
+    <w>Washington_D_C</w>
+    <w>too</w>
+    <t type="p"></t>
+    <media
+      start="496.700"
+      end="502.400"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u149">
+    <w>hm</w>
+    <t type="p"></t>
+    <media
+      start="502.400"
+      end="502.800"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u150">
+    <w>like</w>
+    <w>American_University</w>
+    <w>and</w>
+    <w type="filler">uh</w>
+    <t type="self interruption"></t>
+    <media
+      start="502.800"
+      end="506.299"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="INV" uID="u151">
+    <w>what</w>
+    <w>is</w>
+    <w>it</w>
+    <w type="filler">uh</w>
+    <t type="q"></t>
+    <media
+      start="506.299"
+      end="507.900"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="INV" uID="u152">
+    <w>George_Washington</w>
+    <w>is</w>
+    <w>real</w>
+    <w>good</w>
+    <t type="p"></t>
+    <media
+      start="507.900"
+      end="510.281"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="INV" uID="u153">
+    <w>it's</w>
+    <g><w>right</w><k type="retracing"/></g>
+    <w>right</w>
+    <w>in</w>
+    <w>DC</w>
+    <t type="p"></t>
+    <media
+      start="510.281"
+      end="512.600"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u154">
+    <linker type="lazy overlap mark"/>
+    <g><w>isn't</w>
+    <w>that</w><k type="retracing with correction"/></g>
+    <w>isn't</w>
+    <w>there</w>
+    <w>a_lot_of</w>
+    <w>crime</w>
+    <w>in</w>
+    <w>DC</w>
+    <t type="q"></t>
+    <media
+      start="512.600"
+      end="515.400"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u155">
+    <w type="filler">um</w>
+    <w>not</w>
+    <w>around</w>
+    <w>the</w>
+    <w>campus</w>
+    <w>areas</w>
+    <t type="p"></t>
+    <media
+      start="515.400"
+      end="518.800"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u156">
+    <w>oh</w>
+    <t type="p"></t>
+    <media
+      start="518.800"
+      end="519.700"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u157">
+    <w>you_know</w>
+    <w type="filler">uh</w>
+    <w>George_Washington</w>
+    <w>is</w>
+    <pause symbolic-length="simple"></pause>
+    <w>right</w>
+    <w>next</w>
+    <w>to</w>
+    <w>Georgetown</w>
+    <t type="p"></t>
+    <media
+      start="519.700"
+      end="526.000"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u158">
+    <w>you_know</w>
+    <w>Georgetown</w>
+    <w>is</w>
+    <w>a</w>
+    <w>section</w>
+    <w>of</w>
+    <w>DC</w>
+    <t type="q"></t>
+    <media
+      start="526.000"
+      end="528.880"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u159">
+    <w>and</w>
+    <w>that's</w>
+    <w>where</w>
+    <w>Georgetown_University</w>
+    <w>is</w>
+    <t type="q"></t>
+    <media
+      start="528.880"
+      end="530.600"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u160">
+    <linker type="lazy overlap mark"/>
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="530.400"
+      end="531.000"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u161">
+    <linker type="lazy overlap mark"/>
+    <g><w>the</w>
+    <w>next</w>
+    <w>town</w><k type="retracing with correction"/></g>
+    <w>the</w>
+    <w>next</w>
+    <w>kinda</w>
+    <w>neighborhood</w>
+    <w>over</w>
+    <w>is</w>
+    <w>an</w>
+    <w>area</w>
+    <w>called</w>
+    <w>Foggy_Bottom</w>
+    <t type="p"></t>
+    <media
+      start="530.800"
+      end="536.462"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u162">
+    <w>and</w>
+    <w>that's</w>
+    <w>where</w>
+    <w>George_Washington</w>
+    <w>is</w>
+    <t type="p"></t>
+    <media
+      start="536.462"
+      end="538.700"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u163">
+    <w>a_lot_of</w>
+    <w>nice</w>
+    <w>restaurants</w>
+    <w>and</w>
+    <w>things</w>
+    <w>hotels</w>
+    <w>apartments</w>
+    <t type="p"></t>
+    <media
+      start="538.700"
+      end="543.000"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u164">
+    <w>you_know</w>
+    <w>it's</w>
+    <w>not</w>
+    <w>like</w>
+    <w>inner</w>
+    <w>city</w>
+    <t type="p"></t>
+    <media
+      start="543.000"
+      end="545.600"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u165">
+    <w>I</w>
+    <w>went</w>
+    <w>there</w>
+    <w>once</w>
+    <t type="p"></t>
+    <media
+      start="545.600"
+      end="546.748"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u166">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="546.748"
+      end="547.500"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u167">
+    <linker type="lazy overlap mark"/>
+    <w>actually</w>
+    <w>I've</w>
+    <w>been</w>
+    <w>there</w>
+    <w>a</w>
+    <w>couple</w>
+    <w>times</w>
+    <w>but</w>
+    <t type="p"></t>
+    <media
+      start="546.748"
+      end="548.200"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u168">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="548.200"
+      end="548.900"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u169">
+    <linker type="lazy overlap mark"/>
+    <w>first</w>
+    <w>time</w>
+    <w>I</w>
+    <w>went</w>
+    <w>all</w>
+    <w>I</w>
+    <w>saw</w>
+    <w>was</w>
+    <w>joggers</w>
+    <t type="p"></t>
+    <media
+      start="548.500"
+      end="551.900"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u170">
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>all</w>
+    <w>the</w>
+    <w>government</w>
+    <w>employees</w>
+    <pause symbolic-length="simple"></pause>
+    <w>out</w>
+    <w>jogging</w>
+    <t type="p"></t>
+    <media
+      start="551.900"
+      end="556.100"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u171">
+    <linker type="lazy overlap mark"/>
+    <e><happening>laughs</happening></e>
+    <t type="p"></t>
+    <media
+      start="553.200"
+      end="554.000"
+      unit="s"
+    />
+  </u>
+  <comment type="Generic">Subtopic: hs classes this year, math (discontinuity)</comment>
+  <u who="INV" uID="u172">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <g><w>I</w><k type="retracing"/></g>
+    <g><w>I</w><k type="retracing"/></g>
+    <w>I</w>
+    <w>kind_of</w>
+    <w>interrupted</w>
+    <w>you</w>
+    <t type="p"></t>
+    <media
+      start="556.100"
+      end="557.950"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="INV" uID="u173">
+    <w>I</w>
+    <w>got</w>
+    <w>you</w>
+    <w>off</w>
+    <w>the</w>
+    <w>track</w>
+    <t type="p"></t>
+    <media
+      start="557.950"
+      end="559.124"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="INV" uID="u174">
+    <w type="filler">um</w>
+    <pause symbolic-length="simple"></pause>
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <pause symbolic-length="simple"></pause>
+    <w type="fragment">w</w>
+    <g><w>are</w><k type="retracing with correction"/></g>
+    <g><w>do</w>
+    <w>you</w><k type="retracing with correction"/></g>
+    <w>are</w>
+    <w>you</w>
+    <w>all</w>
+    <w>done</w>
+    <w>with</w>
+    <w>math</w>
+    <t type="q"></t>
+    <media
+      start="559.124"
+      end="565.500"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u175">
+    <w>oh</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>no</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>actually</w>
+    <t type="self interruption"></t>
+    <media
+      start="565.500"
+      end="567.400"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="PAR" uID="u176">
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>I'm</w>
+    <w>gonna</w>
+    <w>take</w>
+    <w>it</w>
+    <w>just</w>
+    <pause symbolic-length="simple"></pause>
+    <w>because</w>
+    <w>I'm</w>
+    <w>thinking</w>
+    <w>about</w>
+    <w>computers</w>
+    <w>so</w>
+    <w>I'm</w>
+    <w>gonna</w>
+    <w>take</w>
+    <w>another</w>
+    <w>math</w>
+    <w>class</w>
+    <t type="p"></t>
+    <media
+      start="567.400"
+      end="572.800"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u177">
+    <w type="fragment">w</w>
+    <w type="fragment">w</w>
+    <w type="fragment">w</w>
+    <w>trig<shortening>onometry</shortening></w>
+    <t type="q"></t>
+    <media
+      start="572.800"
+      end="574.100"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u178">
+    <w>is</w>
+    <w>that</w>
+    <w>the</w>
+    <w>last</w>
+    <w>one</w>
+    <t type="q"></t>
+    <media
+      start="574.100"
+      end="575.552"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u179">
+    <linker type="lazy overlap mark"/>
+    <w>no</w>
+    <tagMarker type="vocative"></tagMarker>
+    <pause symbolic-length="simple"></pause>
+    <w>Stats_And_Probability</w>
+    <t type="p"></t>
+    <media
+      start="574.400"
+      end="576.700"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u180">
+    <w>oh</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>okay</w>
+    <t type="p"></t>
+    <media
+      start="576.700"
+      end="577.400"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u181">
+    <g><w>that</w><k type="retracing"/></g>
+    <w>that</w>
+    <w>would</w>
+    <w>be</w>
+    <w>good</w>
+    <w>any</w>
+    <w>time</w>
+    <pause symbolic-length="simple"></pause>
+    <w><shortening>be</shortening>cause</w>
+    <w>you'll</w>
+    <w>probably</w>
+    <w>hafta</w>
+    <w>take</w>
+    <w>a</w>
+    <w>stat<shortening>istics</shortening></w>
+    <w>class</w>
+    <w>in</w>
+    <w>college</w>
+    <pause symbolic-length="simple"></pause>
+    <w>at</w>
+    <w>some</w>
+    <w>point</w>
+    <w>along</w>
+    <w>the</w>
+    <w>way</w>
+    <w>or</w>
+    <w>something</w>
+    <t type="p"></t>
+    <media
+      start="577.400"
+      end="584.178"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u182">
+    <linker type="lazy overlap mark"/>
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="582.200"
+      end="583.000"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u183">
+    <w>that</w>
+    <w>would</w>
+    <w>be</w>
+    <w>a</w>
+    <w>good</w>
+    <w>one</w>
+    <w>to</w>
+    <w>take</w>
+    <t type="p"></t>
+    <media
+      start="584.178"
+      end="587.500"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <comment type="Generic">Subtopic: hs classes this year, english (cohesion)</comment>
+  <u who="INV" uID="u184">
+    <w>and</w>
+    <w type="filler">uh</w>
+    <pause symbolic-length="simple"></pause>
+    <w type="fragment">eh</w>
+    <w type="filler">uh</w>
+    <w>English</w>
+    <t type="q"></t>
+    <media
+      start="587.500"
+      end="589.158"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="INV" uID="u185">
+    <w>do</w>
+    <w>you</w>
+    <w>have</w>
+    <w>another</w>
+    <w>English</w>
+    <w>you</w>
+    <w>hafta</w>
+    <w>take</w>
+    <t type="q"></t>
+    <media
+      start="589.158"
+      end="591.028"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u186">
+    <linker type="lazy overlap mark"/>
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>you</w>
+    <w>hafta</w>
+    <w>take</w>
+    <w>four</w>
+    <w>years</w>
+    <w>of</w>
+    <w>English</w>
+    <w>now</w>
+    <t type="p"></t>
+    <media
+      start="590.400"
+      end="593.600"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <comment type="Generic">Subtopic: hs classes this year, history (cohesion)</comment>
+  <u who="INV" uID="u187">
+    <w>history</w>
+    <t type="q"></t>
+    <media
+      start="593.600"
+      end="595.800"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u188">
+    <e><happening>laughs</happening></e>
+    <w>no</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>I'm</w>
+    <w>not</w>
+    <w>taking</w>
+    <w>that</w>
+    <t type="p"></t>
+    <media
+      start="595.800"
+      end="598.000"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u189">
+    <w>no</w>
+    <t type="p"></t>
+    <media
+      start="598.000"
+      end="598.372"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u190">
+    <w>I</w>
+    <w>never</w>
+    <w>really</w>
+    <w>liked</w>
+    <w>history</w>
+    <t type="p"></t>
+    <media
+      start="598.372"
+      end="599.619"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u191">
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="599.619"
+      end="600.000"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u192">
+    <e><action/></e>
+    <t type="p"></t>
+    <media
+      start="600.000"
+      end="603.000"
+      unit="s"
+    />
+  </u>
+  <comment type="Generic">Subtopic: hs classes this year, arts (discontinuity/cohesion)</comment>
+  <u who="INV" uID="u193">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <g><w>what</w><k type="retracing with correction"/></g>
+    <pause symbolic-length="simple"></pause>
+    <w>then</w>
+    <w>what</w>
+    <w>else</w>
+    <t type="q"></t>
+    <media
+      start="603.000"
+      end="604.800"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="INV" uID="u194">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <g><w>you</w>
+    <w>got</w><k type="retracing"/></g>
+    <w>you</w>
+    <w>got</w>
+    <w>an</w>
+    <w>English</w>
+    <t type="p"></t>
+    <media
+      start="604.800"
+      end="606.423"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="INV" uID="u195">
+    <w>you</w>
+    <w>got</w>
+    <pause symbolic-length="simple"></pause>
+    <w>the</w>
+    <w>math</w>
+    <t type="p"></t>
+    <media
+      start="606.423"
+      end="608.600"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u196">
+    <w>I'm</w>
+    <w>taking</w>
+    <w>graphic</w>
+    <w>arts</w>
+    <t type="p"></t>
+    <media
+      start="610.500"
+      end="612.239"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u197">
+    <w>that'll</w>
+    <w>be</w>
+    <w>good</w>
+    <t type="p"></t>
+    <media
+      start="612.239"
+      end="614.300"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u198">
+    <w>my</w>
+    <w>schedule</w>
+    <w>got</w>
+    <pause symbolic-length="simple"></pause>
+    <w>a_little</w>
+    <w>messed</w>
+    <w>up</w>
+    <t type="p"></t>
+    <media
+      start="614.300"
+      end="617.800"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PAR" uID="u199">
+    <w>you</w>
+    <w>can</w>
+    <w>some</w>
+    <w>classes</w>
+    <pause symbolic-length="simple"></pause>
+    <w>that</w>
+    <w>I</w>
+    <w>wanted</w>
+    <w>to</w>
+    <w>but</w>
+    <t type="trail off"></t>
+    <media
+      start="617.800"
+      end="622.200"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PAR" uID="u200">
+    <w>I'm</w>
+    <w>taking</w>
+    <w>a_lot_of</w>
+    <w>art</w>
+    <w>classes</w>
+    <w>just</w>
+    <w>to</w>
+    <w>fill</w>
+    <w>in</w>
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+    <media
+      start="622.200"
+      end="625.835"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u201">
+    <linker type="lazy overlap mark"/>
+    <w>sure</w>
+    <t type="p"></t>
+    <media
+      start="624.800"
+      end="625.835"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u202">
+    <w>like</w>
+    <w>typing</w>
+    <t type="p"></t>
+    <media
+      start="625.835"
+      end="627.400"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u203">
+    <w>uhhuh</w>
+    <t type="p"></t>
+    <media
+      start="627.400"
+      end="628.300"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <comment type="Generic">Subtopic: hs classes this year, theater (cohesion)</comment>
+  <u who="INV" uID="u204">
+    <w>any</w>
+    <w>theater</w>
+    <t type="q"></t>
+    <media
+      start="628.300"
+      end="630.900"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u205">
+    <g><w>I've</w>
+    <w>always</w><k type="retracing"/></g>
+    <w>I've</w>
+    <w>always</w>
+    <w>wondered</w>
+    <pause symbolic-length="simple"></pause>
+    <w>if</w>
+    <w>I</w>
+    <w>should</w>
+    <w>take</w>
+    <w>that</w>
+    <w>or</w>
+    <w>not</w>
+    <t type="q"></t>
+    <media
+      start="630.900"
+      end="634.400"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u206">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="634.400"
+      end="636.600"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u207">
+    <w>I'm</w>
+    <w>always</w>
+    <w>kind_of</w>
+    <w>a</w>
+    <w>little</w>
+    <w>nervous</w>
+    <w>on</w>
+    <w>stage</w>
+    <pause symbolic-length="simple"></pause>
+    <w>or</w>
+    <w>in</w>
+    <w>front</w>
+    <w>of</w>
+    <w>people</w>
+    <w>too</w>
+    <t type="p"></t>
+    <media
+      start="636.600"
+      end="641.200"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u208">
+    <linker type="lazy overlap mark"/>
+    <w>well</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>there's</w>
+    <w>other</w>
+    <t type="interruption"></t>
+    <media
+      start="639.600"
+      end="640.600"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u209">
+    <w>there's</w>
+    <w>other</w>
+    <w>parts</w>
+    <w>of</w>
+    <w>it</w>
+    <w>though</w>
+    <w>that</w>
+    <w type="filler">um</w>
+    <pause symbolic-length="simple"></pause>
+    <w>you_know</w>
+    <w>like</w>
+    <w type="filler">uh</w>
+    <t type="trail off"></t>
+    <media
+      start="641.200"
+      end="645.223"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u210">
+    <w>like</w>
+    <w>technical</w>
+    <t type="p"></t>
+    <media
+      start="645.223"
+      end="646.050"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u211">
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="646.050"
+      end="647.100"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u212">
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>I</w>
+    <w>useta</w>
+    <w>help</w>
+    <w>out</w>
+    <w>and</w>
+    <w>do</w>
+    <w>that</w>
+    <t type="p"></t>
+    <media
+      start="647.100"
+      end="650.000"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u213">
+    <linker type="lazy overlap mark"/>
+    <w>uhhuh</w>
+    <t type="p"></t>
+    <media
+      start="648.660"
+      end="649.000"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u214">
+    <g><w>did</w>
+    <w>you</w><k type="retracing"/></g>
+    <w>did</w>
+    <w>you</w>
+    <w>enjoy</w>
+    <w>that</w>
+    <t type="q"></t>
+    <media
+      start="650.000"
+      end="652.000"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u215">
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>somewhat</w>
+    <t type="p"></t>
+    <media
+      start="652.000"
+      end="653.000"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u216">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="653.000"
+      end="654.700"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u217">
+    <w>but</w>
+    <w>not</w>
+    <w>as</w>
+    <w>much</w>
+    <w>as</w>
+    <w type="filler">uh</w>
+    <pause symbolic-length="simple"></pause>
+    <w>some</w>
+    <w>of</w>
+    <w>my</w>
+    <w>friends</w>
+    <w>did</w>
+    <t type="p"></t>
+    <media
+      start="654.700"
+      end="657.500"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u218">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="657.500"
+      end="658.180"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u219">
+    <e><action/></e>
+    <t type="p"></t>
+    <media
+      start="658.180"
+      end="662.290"
+      unit="s"
+    />
+  </u>
+  <comment type="Generic">Broad topic: summer plans</comment>
+  <comment type="Generic">Subtopic: looking at other colleges this summer (discontinuity)</comment>
+  <u who="INV" uID="u220">
+    <w>and</w>
+    <w type="filler">uh</w>
+    <pause symbolic-length="simple"></pause>
+    <w>where</w>
+    <w>else</w>
+    <w>you</w>
+    <w>going</w>
+    <t type="q"></t>
+    <media
+      start="662.290"
+      end="665.819"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="INV" uID="u221">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <g><w>you're</w>
+    <w>going</w>
+    <w>to</w>
+    <w>U</w><k type="retracing with correction"/></g>
+    <w>you</w>
+    <w>said</w>
+    <w>you</w>
+    <w>were</w>
+    <w>going</w>
+    <w>to</w>
+    <w>go</w>
+    <w>look</w>
+    <w>at</w>
+    <w>U_Conn</w>
+    <t type="p"></t>
+    <media
+      start="665.819"
+      end="668.000"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="INV" uID="u222">
+    <w>any</w>
+    <w>other</w>
+    <w>places</w>
+    <w>this</w>
+    <w>summer</w>
+    <t type="q"></t>
+    <media
+      start="668.000"
+      end="670.200"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u223">
+    <w type="filler">um</w>
+    <w>hm</w>
+    <pause symbolic-length="simple"></pause>
+    <w>you</w>
+    <w>mean</w>
+    <w>schools</w>
+    <t type="q"></t>
+    <media
+      start="670.200"
+      end="673.300"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u224">
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="673.300"
+      end="675.300"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u225">
+    <g><w>probably</w>
+    <w>some</w><k type="retracing with correction"/></g>
+    <w>I</w>
+    <w>guess</w>
+    <w>we're</w>
+    <w>just</w>
+    <w>gonna</w>
+    <w>look</w>
+    <w>in</w>
+    <w>the</w>
+    <w>Massachussets</w>
+    <pause symbolic-length="simple"></pause>
+    <w>you_know</w>
+    <w>New_York</w>
+    <w>area</w>
+    <t type="p"></t>
+    <media
+      start="675.300"
+      end="681.260"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u226">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="681.260"
+      end="683.400"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u227">
+    <w>I'm</w>
+    <w>not</w>
+    <w>really</w>
+    <w>sure</w>
+    <w>what</w>
+    <t type="p"></t>
+    <media
+      start="683.400"
+      end="684.600"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PAR" uID="u228">
+    <w>but</w>
+    <g><w>I've</w>
+    <w>been</w><k type="retracing with correction"/></g>
+    <pause symbolic-length="simple"></pause>
+    <w>the</w>
+    <w>past</w>
+    <w>few</w>
+    <w>days</w>
+    <w>I'm</w>
+    <w>starting</w>
+    <w>to</w>
+    <w>look</w>
+    <w>at</w>
+    <w>all</w>
+    <w>these</w>
+    <w>books</w>
+    <w>I</w>
+    <w>have</w>
+    <t type="p"></t>
+    <media
+      start="684.600"
+      end="688.784"
+      unit="s"
+    />
+    <a type="speech act">$POFF</a>
+  </u>
+  <u who="INV" uID="u229">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="688.784"
+      end="689.446"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u230">
+    <w>I</w>
+    <w>needta</w>
+    <w>send</w>
+    <w>away</w>
+    <w>for</w>
+    <w>some</w>
+    <w>catalogues</w>
+    <w>and</w>
+    <t type="trail off"></t>
+    <media
+      start="689.446"
+      end="693.800"
+      unit="s"
+    />
+    <a type="speech act">$POFF</a>
+  </u>
+  <u who="PAR" uID="u231">
+    <w>and</w>
+    <w type="filler">uh</w>
+    <w>probably</w>
+    <w>some</w>
+    <w>in</w>
+    <w>Rhode_Island</w>
+    <w>too</w>
+    <t type="p"></t>
+    <media
+      start="693.800"
+      end="696.620"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u232">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="696.620"
+      end="697.166"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u233">
+    <w>Matt</w>
+    <w type="filler">um</w>
+    <w untranscribed="unintelligible">xxx</w>
+    <pause symbolic-length="simple"></pause>
+    <w>his</w>
+    <w>father</w>
+    <w>is</w>
+    <w>a</w>
+    <w>professor</w>
+    <w>of</w>
+    <w>history</w>
+    <w>at</w>
+    <w>URI</w>
+    <t type="p"></t>
+    <media
+      start="697.166"
+      end="702.530"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u234">
+    <linker type="lazy overlap mark"/>
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="699.500"
+      end="700.400"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u235">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="702.530"
+      end="703.700"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u236">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <pause symbolic-length="simple"></pause>
+    <w untranscribed="unintelligible">xxx</w>
+    <pause symbolic-length="simple"></pause>
+    <w>it's</w>
+    <w>pretty</w>
+    <w>interesting</w>
+    <t type="p"></t>
+    <media
+      start="703.700"
+      end="708.900"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u237">
+    <linker type="lazy overlap mark"/>
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>you're</w>
+    <w>thinking</w>
+    <w>about</w>
+    <w>that</w>
+    <t type="q"></t>
+    <media
+      start="706.900"
+      end="708.900"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u238">
+    <w>yeah</w>
+    <t type="p"></t>
+    <media
+      start="708.900"
+      end="710.600"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u239">
+    <w>that's</w>
+    <w>a</w>
+    <w>nice</w>
+    <w>campus</w>
+    <t type="p"></t>
+    <media
+      start="710.600"
+      end="714.200"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u240">
+    <w>you</w>
+    <w>ever</w>
+    <w>been</w>
+    <w>there</w>
+    <t type="q"></t>
+    <media
+      start="714.200"
+      end="715.600"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u241">
+    <w>I</w>
+    <w>think</w>
+    <w>I've</w>
+    <w>passed</w>
+    <w>by</w>
+    <t type="p"></t>
+    <media
+      start="715.600"
+      end="716.700"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u242">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="716.700"
+      end="719.300"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="INV" uID="u243">
+    <w>interesting</w>
+    <w>school</w>
+    <t type="p"></t>
+    <media
+      start="719.300"
+      end="723.200"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u244">
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+    <media
+      start="723.200"
+      end="724.900"
+      unit="s"
+    />
+  </u>
+  <comment type="Generic">Subtopic: vacation in Cape Cod (discontinuity)</comment>
+  <u who="INV" uID="u245">
+    <w>so</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>nothing</w>
+    <w>too</w>
+    <w>much</w>
+    <w>else</w>
+    <w>planned</w>
+    <t type="q"></t>
+    <media
+      start="724.900"
+      end="726.600"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="INV" uID="u246">
+    <w>is</w>
+    <w>your</w>
+    <w>family</w>
+    <w>gonna</w>
+    <w>go</w>
+    <w>on</w>
+    <w>a</w>
+    <w>vacation</w>
+    <t type="q"></t>
+    <media
+      start="726.600"
+      end="728.374"
+      unit="s"
+    />
+    <a type="speech act">$INEW</a>
+  </u>
+  <u who="PAR" uID="u247">
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>we've</w>
+    <w>been</w>
+    <w>going</w>
+    <w>to</w>
+    <w>Cape_Cod</w>
+    <w>for</w>
+    <w>about</w>
+    <pause symbolic-length="simple"></pause>
+    <w>ten</w>
+    <w>years</w>
+    <w>in</w>
+    <w>a</w>
+    <w>row</w>
+    <t type="p"></t>
+    <media
+      start="728.374"
+      end="732.913"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="PAR" uID="u248">
+    <g><w>we're</w>
+    <w>probably</w>
+    <w>gonna</w><k type="retracing with correction"/></g>
+    <w>I</w>
+    <w>think</w>
+    <w>we're</w>
+    <w>gonna</w>
+    <w>go</w>
+    <w>again</w>
+    <t type="p"></t>
+    <media
+      start="732.913"
+      end="735.177"
+      unit="s"
+    />
+    <a type="speech act">$PINEW</a>
+  </u>
+  <u who="INV" uID="u249">
+    <w>great</w>
+    <t type="p"></t>
+    <media
+      start="735.177"
+      end="735.804"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u250">
+    <w>that's</w>
+    <w>a</w>
+    <w>nice</w>
+    <w>spot</w>
+    <tagMarker type="tag"></tagMarker>
+    <w>huh</w>
+    <t type="q"></t>
+    <media
+      start="735.804"
+      end="737.600"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u251">
+    <w>do</w>
+    <w>you</w>
+    <w>go</w>
+    <w>for</w>
+    <w>a</w>
+    <w>week</w>
+    <w>or</w>
+    <t type="trail off question"></t>
+    <media
+      start="737.600"
+      end="739.066"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="PAR" uID="u252">
+    <w>yeah</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>we've</w>
+    <w>been</w>
+    <w>going</w>
+    <w>for</w>
+    <w>two</w>
+    <w>weeks</w>
+    <t type="p"></t>
+    <media
+      start="739.066"
+      end="741.005"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PAR" uID="u253">
+    <w>or</w>
+    <w>well</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>we've</w>
+    <w>gone</w>
+    <w>for</w>
+    <w>two</w>
+    <w>weeks</w>
+    <w untranscribed="unintelligible">xxx</w>
+    <pause symbolic-length="simple"></pause>
+    <w>hm</w>
+    <pause symbolic-length="simple"></pause>
+    <w>about</w>
+    <w>three</w>
+    <w>of</w>
+    <w>four</w>
+    <w>years</w>
+    <w>in</w>
+    <w>a</w>
+    <w>row</w>
+    <t type="p"></t>
+    <media
+      start="741.005"
+      end="746.601"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u254">
+    <w>mhm</w>
+    <t type="p"></t>
+    <media
+      start="746.601"
+      end="747.274"
+      unit="s"
+    />
+    <a type="speech act">$BACK</a>
+  </u>
+  <u who="PAR" uID="u255">
+    <w>but</w>
+    <w>that's</w>
+    <w>kinda</w>
+    <w>too</w>
+    <w>much</w>
+    <t type="p"></t>
+    <media
+      start="747.274"
+      end="749.028"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PAR" uID="u256">
+    <w>stay</w>
+    <w>away</w>
+    <w>from</w>
+    <w untranscribed="unintelligible">xxx</w>
+    <t type="p"></t>
+    <media
+      start="749.028"
+      end="751.300"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="PAR" uID="u257">
+    <w>but</w>
+    <w>I'm</w>
+    <w>just</w>
+    <w>going</w>
+    <w>for</w>
+    <w>a</w>
+    <w>week</w>
+    <w>this</w>
+    <w>year</w>
+    <t type="p"></t>
+    <media
+      start="751.300"
+      end="755.600"
+      unit="s"
+    />
+    <a type="speech act">$PISAME</a>
+  </u>
+  <u who="INV" uID="u258">
+    <w>well</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>that'll</w>
+    <w>be</w>
+    <w>good</w>
+    <t type="p"></t>
+    <media
+      start="755.600"
+      end="758.100"
+      unit="s"
+    />
+    <a type="speech act">$IPSAME</a>
+  </u>
+  <u who="INV" uID="u259">
+    <w>okay</w>
+    <tagMarker type="vocative"></tagMarker>
+    <w>we're</w>
+    <w>all</w>
+    <w>set</w>
+    <t type="p"></t>
+    <media
+      start="758.100"
+      end="759.964"
+      unit="s"
+    />
+  </u>
+</CHAT>
