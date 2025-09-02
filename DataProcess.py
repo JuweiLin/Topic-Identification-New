@@ -1,152 +1,152 @@
-import os, json, glob
+import os, json, re
 import xml.etree.ElementTree as ET
 
-############################
-# 1) 基础：XML → 句子列表
-############################
+# =========================
+# 可配置项
+# =========================
+MERGE_RUNS     = True   # 是否合并“同说话人 + 同 label”的连续句
+STRIP_SPACES   = True   # 是否把多空白折叠为单空格
+UID_JOIN_MODE  = "list" # 合并后 uid 拼法: "list" => "u1,u2,u3"; "range" => "u1-u5"（仅当纯数字且连续）
+
+# =========================
+# 1) XML -> 原始记录列表
+# =========================
 def parse_xml_to_list(xml_file):
     try:
         tree = ET.parse(xml_file)
         root = tree.getroot()
         namespace_uri = root.tag.split("}")[0].strip("{")
-        namespace = {"ns": namespace_uri}
-        print("Detected namespace:", namespace_uri) 
+        ns = {"ns": namespace_uri}
+        print(f"[XML] {os.path.basename(xml_file)}  ns={namespace_uri}")
 
-        result = []
-        u_elements = root.findall(".//ns:u", namespace)
-        print("Found <u> elements:", len(u_elements))
-
-        for elem in u_elements:
+        out = []
+        u_elems = root.findall(".//ns:u", ns)
+        for elem in u_elems:
             uid = elem.attrib.get("uID", "Unknown")
             speaker = elem.attrib.get("who", "Unknown")
-            content = " ".join([w.text for w in elem.findall("ns:w", namespace) if w.text])
-            speech_act_elem = elem.find("ns:a", namespace)
-            speech_act = speech_act_elem.text.strip() if (speech_act_elem is not None and speech_act_elem.text is not None) else "Unknown"
+            words = [w.text for w in elem.findall("ns:w", ns) if w.text]
+            content = " ".join(words) if words else ""
+            if STRIP_SPACES and content:
+                content = re.sub(r"\s+", " ", content).strip()
 
-            result.append({
-                "uID": uid,
-                "speaker": speaker,
-                "content": content,
-                "speech_act": speech_act
-            })
-        print("XML to list conversion completed. Total records:", len(result))
-        return result
-    except ET.ParseError as e:
-        print(f"XML ParseError: {e}")
-    except FileNotFoundError:
-        print(f"File not found: {xml_file}")
+            a = elem.find("ns:a", ns)
+            speech_act = a.text.strip() if (a is not None and a.text) else "Unknown"
+
+            out.append({"uID": uid, "speaker": speaker, "content": content, "speech_act": speech_act})
+        return out
     except Exception as e:
-        print(f"Unexpected error: {e}")
-    return []
+        print(f"[ERROR] {xml_file}: {e}")
+        return []
 
-###########################################
-# 2) 将 speech_act → {SAME,NEW1,NEW2,BACK,OFF}
-###########################################
+# =========================
+# 2) 映射 speech_act -> 5类
+# =========================
 SPEECH_ACT_MAP = {
-    "$INEW": "$NEW1", "$IPNEW": "$NEW2",
-    "$IPSAME": "$SAME", "$PISAME": "$SAME",
-    "$IOFF": "$OFF", "$POFF": "$OFF",
-    "$PNEW": "$NEW1", "$PINEW": "$NEW2",
-    "$BACK": "$BACK",
+    "$INEW":"$NEW1", "$IPNEW":"$NEW2",
+    "$IPSAME":"$SAME", "$PISAME":"$SAME",
+    "$IOFF":"$OFF", "$POFF":"$OFF",
+    "$PNEW":"$NEW1", "$PINEW":"$NEW2",
+    "$BACK":"$BACK",
 }
-
 def filter_and_map(records):
-    """仅保留能映射到五类标签的句子，并附加 label。"""
     out = []
     for r in records:
         sa = r.get("speech_act")
         if sa in SPEECH_ACT_MAP:
-            r2 = {
+            out.append({
                 "uID": r["uID"],
                 "speaker": r["speaker"],
                 "content": r["content"],
-                "label": SPEECH_ACT_MAP[sa].replace("$", "")  # "$NEW1" -> "NEW1"
-            }
-            out.append(r2)
+                "label": SPEECH_ACT_MAP[sa].replace("$","")  # "$NEW1" -> "NEW1"
+            })
     return out
 
-##########################################
-# 3) 统一说话人名：INV / PAR（可按你语料调整）
-##########################################
-def normalize_speaker(s):
-    s = (s or "").upper()
-    if s.startswith("INV"):
-        return "INV"
-    if s.startswith("PAR"):
-        return "PAR"
-    # 其它全部归一到PAR（或自定义）
-    return "PAR"
+# =========================
+# 3) 可选：合并相邻“同说话人 + 同label”
+# =========================
+def _join_uid(uids):
+    if UID_JOIN_MODE == "range":
+        try:
+            nums = [int(re.findall(r"\d+", str(u))[0]) for u in uids]
+            if nums and nums == list(range(nums[0], nums[-1]+1)):
+                return f"{uids[0]}-{uids[-1]}"
+        except Exception:
+            pass
+    return ",".join(map(str, uids))
 
-############################################
-# 4) 生成 HSTN 对话对象（不加任何 PAD）
-############################################
-def to_hstn_dialogue(dialogue_id, recs):
-    utts = []
-    labels = []
+def merge_runs_same_speaker_label(records):
+    merged, buf = [], None
+    for r in records:
+        spk = (r["speaker"] or "").strip()
+        lbl = str(r["label"]).strip().upper()
+        txt = (r["content"] or "").strip()
+        if buf is None:
+            buf = {"uIDs":[r["uID"]], "speaker": spk, "content": txt, "label": lbl}
+        else:
+            if spk == buf["speaker"] and lbl == buf["label"]:
+                buf["uIDs"].append(r["uID"])
+                if txt:
+                    buf["content"] = (buf["content"] + " " + txt).strip() if buf["content"] else txt
+            else:
+                merged.append({"uID": _join_uid(buf["uIDs"]), "speaker": buf["speaker"],
+                               "content": buf["content"], "label": buf["label"]})
+                buf = {"uIDs":[r["uID"]], "speaker": spk, "content": txt, "label": lbl}
+    if buf is not None:
+        merged.append({"uID": _join_uid(buf["uIDs"]), "speaker": buf["speaker"],
+                       "content": buf["content"], "label": buf["label"]})
+    return merged
+
+# =========================
+# 4) 计算 tran（上升沿：prev!=NEW1 且 curr==NEW1）
+# =========================
+def compute_tran_labels(recs):
+    tran, prev_is_new1 = [], False
     for r in recs:
+        lbl = str(r.get("label","")).strip().upper().replace("$","").replace("_","")
+        is_new1 = (lbl == "NEW1")
+        tran.append(1 if (is_new1 and not prev_is_new1) else 0)
+        prev_is_new1 = is_new1
+    return tran
+
+# =========================
+# 5) 说话人编号（对话内 0..N-1）
+# =========================
+def build_speaker_id_map(records):
+    spk2id = {}
+    for r in records:
+        spk = (r.get("speaker") or "").strip()
+        if spk not in spk2id:
+            spk2id[spk] = len(spk2id)
+    return spk2id
+
+# =========================
+# 6) 组装对话对象（不切窗）
+# =========================
+def to_dialogue(dialogue_id, recs, tran_flags):
+    spk2id = build_speaker_id_map(recs)
+    utts, labels, trans = [], [], []
+    for r, t in zip(recs, tran_flags):
+        spk_raw = (r["speaker"] or "").strip()
         utts.append({
             "uid": r["uID"],
-            "speaker": normalize_speaker(r["speaker"]),
+            "speaker": spk_raw,                 # 原始字符串
+            "speaker_id": int(spk2id[spk_raw]), # 数字ID：0..N-1
             "content": r["content"]
         })
         labels.append(r["label"])
+        trans.append(int(t))
     return {
         "dialogue_id": dialogue_id,
         "utterances": utts,
-        "labels": labels
+        "labels": labels,
+        "tran": trans,
+        "num_speakers": len(spk2id)
     }
 
-########################################
-# 5) 对长对话做窗口：win=256, stride=128
-########################################
-def window_dialogue(dialogue, win=256, stride=64):
-    U = len(dialogue["utterances"])
-    if U == 0:
-        return []
-
-    # 若本来就 <=win，直接返回单窗口
-    if U <= win:
-        return [{
-            "dialogue_id": f'{dialogue["dialogue_id"]}#1-{U}',
-            "utterances": dialogue["utterances"],
-            "labels": dialogue["labels"]
-        }]
-
-    # 滑窗
-    out = []
-    start = 1
-    # 用 0-based 索引切片更方便
-    i = 0
-    while i < U:
-        j = min(i + win, U)
-        utts = dialogue["utterances"][i:j]
-        labs = dialogue["labels"][i:j]
-        # 对话内的 uid 范围：用原 uid 显示更直观；若 uid 不是纯数字可显示序号
-        left_uid = utts[0]["uid"]
-        right_uid = utts[-1]["uid"]
-        did = f'{dialogue["dialogue_id"]}#{left_uid}-{right_uid}'
-        out.append({"dialogue_id": did, "utterances": utts, "labels": labs})
-        if j == U:  # 收尾
-            break
-        i += stride
-        # 若最后一段太短且没覆盖到末尾，强行补一个“尾窗”
-        if U - i < win // 2 and j < U:
-            i = max(U - win, 0)
-    return out
-
-##############################
-# 6) 写 JSONL
-##############################
-def write_jsonl(dialogues, out_path):
-    os.makedirs(os.path.dirname(out_path), exist_ok=True)
-    with open(out_path, "w", encoding="utf-8") as f:
-        for d in dialogues:
-            f.write(json.dumps(d, ensure_ascii=False) + "\n")
-
-#############################################
-# 7) 整体入口：批量把 XML → JSONL（带窗口）
-#############################################
-def xml_dir_to_jsonl(xml_dir, out_jsonl, prefix_filter=None, win=256, stride=64):
+# =========================
+# 7) 目录 -> JSONL（一段一行）
+# =========================
+def xml_dir_to_jsonl(xml_dir, out_jsonl, prefix_filter=None):
     paths = []
     for name in os.listdir(xml_dir):
         if not name.lower().endswith(".xml"):
@@ -156,31 +156,32 @@ def xml_dir_to_jsonl(xml_dir, out_jsonl, prefix_filter=None, win=256, stride=64)
         paths.append(os.path.join(xml_dir, name))
     paths.sort()
 
-    all_windows = []
-    for p in paths:
-        base = os.path.splitext(os.path.basename(p))[0]  # e.g., "n01"
-        records = parse_xml_to_list(p)
-        records = filter_and_map(records)
-        if not records:
-            continue
-        dia = to_hstn_dialogue(base, records)
-        wins = window_dialogue(dia, win=win, stride=stride)
-        all_windows.extend(wins)
+    os.makedirs(os.path.dirname(out_jsonl), exist_ok=True)
+    n_ok = 0
+    with open(out_jsonl, "w", encoding="utf-8") as f:
+        for p in paths:
+            base = os.path.splitext(os.path.basename(p))[0]
+            recs = parse_xml_to_list(p)
+            recs = filter_and_map(recs)
+            if not recs:
+                continue
+            if MERGE_RUNS:
+                recs = merge_runs_same_speaker_label(recs)
+            tran = compute_tran_labels(recs)
+            dia = to_dialogue(base, recs, tran)
+            f.write(json.dumps(dia, ensure_ascii=False) + "\n")
+            n_ok += 1
+    print(f"[DONE] wrote {n_ok} dialogues -> {out_jsonl}")
 
-    write_jsonl(all_windows, out_jsonl)
-    print(f"Wrote {len(all_windows)} windows to {out_jsonl}")
-
-#############################################
+# =========================
 # 示例调用
-#############################################
+# =========================
 if __name__ == "__main__":
-    # 你的两类目录
-    coded_n_folder_path = "./RawData/Coded_N-xml"
+    coded_n_folder_path  = "./RawData/Coded_N-xml"
     coded_tb_folder_path = "./RawData/Coded_TB-xml"
-    val_folder_path = "./RawData/Val-xml"
+    val_folder_path      = "./RawData/Val-xml"
 
     os.makedirs("./HSTN_JSONL", exist_ok=True)
-    xml_dir_to_jsonl(coded_n_folder_path, "./HSTN_JSONL/coded_n.jsonl", prefix_filter="n", win=256, stride=64)
-    xml_dir_to_jsonl(coded_tb_folder_path, "./HSTN_JSONL/coded_tb.jsonl", prefix_filter="tb", win=256, stride=64)
-    xml_dir_to_jsonl(val_folder_path, "./HSTN_JSONL/val.jsonl", prefix_filter="", win=256, stride=64)
-
+    xml_dir_to_jsonl(coded_n_folder_path,  "./HSTN_JSONL/coded_n.jsonl")
+    xml_dir_to_jsonl(coded_tb_folder_path, "./HSTN_JSONL/coded_tb.jsonl")
+    xml_dir_to_jsonl(val_folder_path,      "./HSTN_JSONL/val.jsonl")
