@@ -13,7 +13,7 @@ from sklearn.metrics import (
     confusion_matrix,
     average_precision_score
 )
-
+import re
 
 os.environ["TOKENIZERS_PARALLELISM"] = "True"
 
@@ -32,9 +32,9 @@ USE_TRAN_Y  = True       # 优先用 JSONL 的 tran 作为监督目标
 # =========================
 # 配置（新增）
 # =========================
-PRE_WINDOW = 0          # 向上看多少句
-NEXT_WINDOW = 0         # 向下看多少句
-EMB_ENC_BATCH = 128      # 长文本建议把 encode 的 batch 缩小，避免显存爆
+PRE_WINDOW = 20          # 向上看多少句
+NEXT_WINDOW = 1         # 向下看多少句
+EMB_ENC_BATCH = 64      # 长文本建议把 encode 的 batch 缩小，避免显存爆
 MAX_CHAR_PER_UTT = 0     # 每句裁剪到多少字符（0 表示不裁剪）
 SEED        = 42
 BATCH_SIZE  = 32
@@ -53,6 +53,26 @@ EVAL_P_MAX = 0.50     # Precision 目标上界
 EVAL_P_STEP = 0.01    # 步长
 EVAL_MIN_PRED = 20    # 至少命中这么多正类预测才算数（防止阈值过高只出很少正例）
 EVAL_PRINT_P_TARGETS = [0.30, 0.40, 0.50]  # 控制台摘要展示哪些目标
+
+# —— 常量 —— 
+K_LOCAL = 3  # local 历史窗口
+BACKCHANNEL = set(["ok","okay","ok.","ok!","okk","k","kk","y","yy","yes","yeah","yep","nope","uh","um","right","sure","mm"])
+STOP = set(["the","a","an","of","and","to","is","are","am"])
+
+# —— 问句打分（无标点、英文）——
+_WH = {"who","whom","whose","which","what","why","how","where","when"}
+_AUX = {"do","does","did","is","are","am","was","were","can","could","will","would",
+        "shall","should","may","might","have","has","had"}
+_SUBJ = {"i","you","we","he","she","they","it","there","this","that","anyone","someone","people"}
+_PHRASES = [
+    r"\bi wonder if\b", r"\bany idea\b", r"\bis it possible\b",
+    r"\bcould you\b", r"\bcan you\b", r"\bwould you\b", r"\bshould we\b",
+    r"\bshall we\b", r"\bdo you\b", r"\bdoes it\b", r"\bis there\b", r"\bare there\b",
+    r"\bwould it be\b", r"\bcould we\b", r"\bwould we\b",
+]
+_CLAUSE_SPLIT = re.compile(r"\b(?:and|but|so|then|or|if|because|since|when|while|though|although|whereas)\b", re.I)
+_PHRASE_RE = re.compile("|".join(_PHRASES), re.I)
+_OR_NOT_RE = re.compile(r"\bor not\b", re.I)
 
 # =========================
 # 工具函数
@@ -190,6 +210,42 @@ def sweep_precision_targets(y_true, probs, p_min=0.30, p_max=0.50, p_step=0.01, 
         out[int(round(tgt * 100))] = m
     return out
 
+def _tokens_english(s: str):
+    s = re.sub(r"[^A-Za-z\s]", " ", s or "").lower()
+    s = re.sub(r"\s+", " ", s).strip()
+    return s.split()
+
+def question_score(text: str) -> float:
+    if not text: return 0.0
+    s = re.sub(r"[^A-Za-z\s]", " ", text).lower()
+    s = re.sub(r"\s+", " ", s).strip()
+    if not s: return 0.0
+    score = 0.0
+    clauses = [c.strip() for c in _CLAUSE_SPLIT.split(s) if c.strip()] or [s]
+    for c in clauses:
+        toks = _tokens_english(c)
+        if not toks: continue
+        if any(t in _WH for t in toks): score = max(score, 0.72)
+        for i,t in enumerate(toks):
+            if t in _AUX and any(w in _SUBJ for w in toks[i+1:i+6]): 
+                score = max(score, 0.65); break
+        if _PHRASE_RE.search(c) or _OR_NOT_RE.search(c): score = max(score, 0.62)
+        if len(toks) <= 2: score = min(score, 0.55)
+    return float(score)
+
+# —— 简单分词 & Jaccard —— 
+def simple_tokens(t):
+    t = (t or "").lower().strip()
+    t = re.sub(r"https?://\S+|@\w+|#[\w-]+", " ", t)
+    toks = re.findall(r"[a-zA-Z]+|\d+", t)
+    content = [w for w in toks if w not in STOP]
+    return toks, content
+
+def jaccard(a, b):
+    A, B = set(a), set(b)
+    if not A and not B: return 0.0
+    return len(A & B) / max(len(A | B), 1)
+
 # =========================
 # 数据集
 # =========================
@@ -198,13 +254,10 @@ class New1Dataset(Dataset):
         self.rows_all = rows
         self.embedder = embedder
 
-        # 1) 展开文本与标签
-        texts, y_list = [], []
-        for r in rows:
-            texts.append(compose_text(r, ctx))        # 需要你已有的 compose_text
-            y_list.append(target_from_row(r))         # 需要你已有的 target_from_row
+        # 0) 标签
+        y_list = [target_from_row(r) for r in rows]
 
-        # 2) 在完整对话上先算 switch（与过滤无关）
+        # 1) 说话人切换（全量先算，再切片）
         switch_all = []
         last_spk = {}
         for r in rows:
@@ -215,44 +268,105 @@ class New1Dataset(Dataset):
             switch_all.append(1.0 if (prev is not None and cur != prev) else 0.0)
             last_spk[did] = cur
 
-        # 3) 选择保留的索引
-        if require_labels:
-            keep = [i for i, y in enumerate(y_list) if y in (0, 1)]
-        else:
-            keep = list(range(len(rows)))
+        # 2) 过滤索引
+        keep = [i for i,_ in enumerate(rows)] if not require_labels else [i for i,y in enumerate(y_list) if y in (0,1)]
 
-        # 4) 生成嵌入（仅对 keep 的文本）
-        texts_kept = [texts[i] for i in keep]
-        X = self.embedder.encode(
-            texts_kept, batch_size=EMB_ENC_BATCH,
-            normalize_embeddings=False, show_progress_bar=True
-        )
-        X = l2norm(X) if l2 else np.asarray(X)
-        self.X = torch.from_numpy(np.asarray(X)).float()
+        # 3) 准备文本：用于
+        #    a) 基础句向量（compose_text）
+        #    b) delta/local/稀疏相似度（cur vs prev）
+        enc_texts   = [compose_text(rows[i], ctx) for i in keep]
+        cur_texts   = [(rows[i].get("text") or "") for i in keep]
+        prev_texts  = [(rows[i].get("prev") or "") for i in keep]
+        sids_kept   = [rows[i].get("speaker_id") for i in keep]
+        dids_kept   = [rows[i]["dialogue_id"] for i in keep]
 
-        # 5) 说话人切换特征 & 标签（按 keep 切片）
-        if add_switch:
-            sw = [switch_all[i] for i in keep]
-            self.switch = torch.tensor(sw, dtype=torch.float32).unsqueeze(1)
-        else:
-            self.switch = None
+        # 4) 句向量（作为主输入）
+        E = self.embedder.encode(enc_texts, batch_size=EMB_ENC_BATCH, normalize_embeddings=False, show_progress_bar=True)
+        E = l2norm(E) if l2 else np.asarray(E)
+        E = E.astype(np.float32)
 
-        y_kept = [(y_list[i] if y_list[i] in (0, 1) else -1) for i in keep]
+        # 5) 稀疏相似度（TF-IDF 余弦）+ Jaccard
+        from sklearn.feature_extraction.text import TfidfVectorizer
+        vec = TfidfVectorizer(min_df=2, max_df=0.9, ngram_range=(1,2))
+        A = vec.fit_transform(prev_texts)
+        B = vec.transform(cur_texts)
+        num = (A.multiply(B)).sum(axis=1).A.ravel()
+        den = np.sqrt((A.multiply(A)).sum(axis=1).A.ravel() * (B.multiply(B)).sum(axis=1).A.ravel()) + 1e-9
+        tfidf_cos = (num/den).astype(np.float32)
+
+        toks_prev = [simple_tokens(p)[1] for p in prev_texts]
+        toks_cur  = [simple_tokens(c)[1] for c in cur_texts]
+        jacc = np.array([jaccard(toks_prev[i], toks_cur[i]) for i in range(len(keep))], dtype=np.float32)
+
+        # 6) 嵌入相似度（delta_cos、local_sim）
+        cur_tagged  = [f"S{(sids_kept[i] if sids_kept[i] is not None else 'PK')}: {cur_texts[i]}" for i in range(len(keep))]
+        prev_tagged = [f"PREV: {prev_texts[i]}" for i in range(len(keep))]
+        C = self.embedder.encode(cur_tagged,  batch_size=EMB_ENC_BATCH, normalize_embeddings=False, show_progress_bar=False)
+        P = self.embedder.encode(prev_tagged, batch_size=EMB_ENC_BATCH, normalize_embeddings=False, show_progress_bar=False)
+        C = l2norm(C).astype(np.float32); P = l2norm(P).astype(np.float32)
+        delta_cos = (1.0 - np.sum(C*P, axis=1)).astype(np.float32)
+
+        local_sim = np.zeros(len(keep), dtype=np.float32)
+        last_did = None; buf = []
+        for i in range(len(keep)):
+            did = dids_kept[i]
+            if did != last_did:
+                buf = []; last_did = did
+            if buf:
+                mean_vec = np.mean(buf, axis=0)
+                mean_vec = mean_vec / (np.linalg.norm(mean_vec)+1e-9)
+                local_sim[i] = float(np.dot(C[i], mean_vec))
+            else:
+                local_sim[i] = 0.0
+            buf.append(P[i])
+            if len(buf) > K_LOCAL: buf.pop(0)
+
+        # 7) 标量手工特征
+        t_low = [s.lower().strip() for s in cur_texts]
+        len_char     = np.array([math.log1p(len(t)) for t in t_low], dtype=np.float32)
+        is_short     = np.array([1.0 if len(t)<=2 else 0.0 for t in t_low], dtype=np.float32)
+        is_back      = np.array([1.0 if (len(t)<=6 and t in BACKCHANNEL) else 0.0 for t in t_low], dtype=np.float32)
+        is_q         = np.array([question_score(s) for s in cur_texts], dtype=np.float32)
+        q_len        = is_q * len_char
+
+        speaker_switch = np.array([switch_all[i] for i in keep], dtype=np.float32)
+        same_speaker   = 1.0 - speaker_switch
+
+        novel_tfidf   = 1.0 - tfidf_cos
+        novel_jaccard = 1.0 - jacc
+        novel_local   = 1.0 - local_sim
+
+        feats = np.column_stack([
+            len_char,
+            1.0 - is_short,
+            1.0 - is_back,
+            speaker_switch,
+            same_speaker,
+            delta_cos,
+            novel_tfidf,
+            novel_jaccard,
+            novel_local,
+            is_q,
+            q_len,
+        ]).astype(np.float32)
+
+        # 8) 拼成最终输入： [句向量 E | 特征 feats]
+        X = np.concatenate([E, feats], axis=1).astype(np.float32)
+        self.X = torch.from_numpy(X)
+
+        # 9) 标签
+        y_kept = [(y_list[i] if y_list[i] in (0,1) else -1) for i in keep]
         self.y = torch.tensor(y_kept, dtype=torch.long)
-        self.has_labels = all(y in (0, 1) for y in y_kept)
+        self.has_labels = all(y in (0,1) for y in y_kept)
 
-        # 6) 记录对应的行（便于导出/对齐）
+        # 10) 保存行
         self.rows = [rows[i] for i in keep]
 
-    def __len__(self):
-        return len(self.rows)
+    def __len__(self): return len(self.rows)
 
     def __getitem__(self, i):
-        x = self.X[i]
-        if self.switch is not None:
-            x = torch.cat([x, self.switch[i]], dim=-1)
-        y = self.y[i]
-        return x, y
+        return self.X[i], self.y[i]
+
 
 
 # =========================
@@ -409,7 +523,7 @@ def main():
         dl_val = DataLoader(ds_va, batch_size=EVAL_BATCH, shuffle=False, num_workers=0, pin_memory=True)
 
 
-    in_dim = ds_tr.X.shape[1] + (1 if USE_SWITCH else 0)
+    in_dim = ds_tr.X.shape[1]
     print("Input dim:", in_dim)
 
     # 4) 不平衡处理
